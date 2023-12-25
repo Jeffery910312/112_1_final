@@ -1,3 +1,0 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\YourProgram.dir/objects.a
-C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\YourProgram.dir/objects.a @CMakeFiles\YourProgram.dir\objects1.rsp
-C:\msys64\ucrt64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\YourProgram.dir/objects.a -Wl,--no-whole-archive -o "C:\My Program\C\112-1\gameproject_test_1225_2\YourProgram.exe" -Wl,--out-implib,"C:\My Program\C\112-1\gameproject_test_1225_2\libYourProgram.dll.a" -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\YourProgram.dir\linkLibs.rsp
