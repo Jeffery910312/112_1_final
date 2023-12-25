@@ -62,21 +62,33 @@ void resourceDestoryPic(struct ResourcePic* Pic)
     al_destroy_bitmap(Pic->bitmap_down);
 }
 
-void resourceInitAudio(struct ResourceAudio* res2)
+void resourceInitAudio(struct ResourceAudio* Audio)
 {
-    res2->Start = NULL;
-    res2->button = NULL;
-    res2->boom = NULL;
-    res2->flying = NULL;
-    res2->background = NULL;
+    Audio->Start = NULL;
+    Audio->button = NULL;
+    Audio->boom = NULL;
+    Audio->flying = NULL;
+    Audio->background = NULL;
     
 }
 
-void resourceLoadAudio(struct ResourceAudio* res2)
+void resourceLoadAudio(struct ResourceAudio* Audio)
 {
 
-    res2->Start = al_load_sample("./Start.mp3"); 
-    res2->button = al_load_sample("./bonk.mp3"); 
-    res2->boom = al_load_sample("./boom.mp3");
-    res2->flying = al_load_sample("./flying.mp3"); 
+    Audio->Start = al_load_sample("./Start.mp3"); 
+    Audio->button = al_load_sample("./bonk.mp3"); 
+    Audio->boom = al_load_sample("./boom.mp3");
+    Audio->flying = al_load_sample("./flying.mp3"); 
+    //Audio->background = al_load_sample("./background.mp3");
+}
+
+void resourceDestoryAudio(struct ResourceAudio* Audio)
+{
+    
+    al_destroy_sample(Audio->Start);
+    al_destroy_sample(Audio->button);
+    al_destroy_sample(Audio->boom);
+    al_destroy_sample(Audio->flying);
+    al_destroy_sample(Audio->background);
+
 }

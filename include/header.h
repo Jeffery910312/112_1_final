@@ -88,5 +88,6 @@ void resourceLoadPic(struct ResourcePic* );
 void resourceDestoryPic(struct ResourcePic* ); 
 void resourceInitAudio(struct ResourceAudio* );
 void resourceLoadAudio(struct ResourceAudio* );
+void resourceDestoryAudio(struct ResourceAudio* );
 
 #endif
