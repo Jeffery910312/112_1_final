@@ -5,6 +5,8 @@ int main ()
     
     ALLEGRO_DISPLAY *display = NULL;
     ALLEGRO_EVENT_QUEUE *event_queue = NULL;
+    al_init_font_addon(); 
+    al_init_ttf_addon();
     struct ResourcePic Pic;
     resourceInitPic(&Pic);
     initial_src();

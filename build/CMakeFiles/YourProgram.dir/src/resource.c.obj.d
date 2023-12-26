@@ -93,4 +93,6 @@ CMakeFiles/YourProgram.dir/src/resource.c.obj: \
  C:/AllegroLib_5.2.8/include/allegro5/allegro_primitives.h \
  C:/AllegroLib_5.2.8/include/allegro5/allegro_image.h \
  C:/AllegroLib_5.2.8/include/allegro5/allegro_audio.h \
- C:/AllegroLib_5.2.8/include/allegro5/allegro_acodec.h
+ C:/AllegroLib_5.2.8/include/allegro5/allegro_acodec.h \
+ C:/AllegroLib_5.2.8/include/allegro5/allegro_font.h \
+ C:/AllegroLib_5.2.8/include/allegro5/allegro_ttf.h

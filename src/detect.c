@@ -111,37 +111,41 @@ void DetonateBomb(ALLEGRO_EVENT_QUEUE *event_queue, int *bullet_x, int *bullet_y
     //ALLEGRO_KEYBOARD_STATE keyboard_state;
     ALLEGRO_EVENT ev;
     al_peek_next_event(event_queue, &ev);
+    int bullet_x1 = *bullet_x;
+    int bullet_y1 = *bullet_y;
+    if(bullet_x1 > 340 && bullet_x1 < 990) //avoid detonate outside display area
+    { 
+        if (ev.type == ALLEGRO_EVENT_KEY_DOWN && ev.keyboard.keycode == ALLEGRO_KEY_ENTER)
+        {
+            int bullet_x1 = *bullet_x;
+            int bullet_y1 = *bullet_y;
+            printf("Detonate\n");
+            printf("bullet_dir: %d\n", *bullet_dir);
 
-    if (ev.type == ALLEGRO_EVENT_KEY_DOWN && ev.keyboard.keycode == ALLEGRO_KEY_ENTER)
-    {
-        int bullet_x1 = *bullet_x;
-        int bullet_y1 = *bullet_y;
-        printf("Detonate\n");
-        printf("bullet_dir: %d\n", *bullet_dir);
-
-            if (*transbomb == 0)
-            {
-                cross(&bullet_x1, &bullet_y1, bitmapexplosion,bullet_dir,stage);
-                *bullet_x = 1500;
-                *bullet_y = 1500;
-                *bullet_dir = -1;
-            }
-            else if (*transbomb == 1)
-            {
-                bigcross(&bullet_x1, &bullet_y1, bitmapexplosion,bullet_dir,stage);
-                *bullet_x = 1500;
-                *bullet_y = 1500;
-                *bullet_dir = -1;
-            }
-            else if (*transbomb == 2)
-            {
-                square(&bullet_x1, &bullet_y1, bitmapexplosion,bullet_dir,stage);
-                *bullet_x = 1500;
-                *bullet_y = 1500;
-                *bullet_dir = -1;
-            }
+                if (*transbomb == 0)
+                {
+                    cross(&bullet_x1, &bullet_y1, bitmapexplosion,bullet_dir,stage);
+                    *bullet_x = 1500;
+                    *bullet_y = 1500;
+                    *bullet_dir = -1;
+                }
+                else if (*transbomb == 1)
+                {
+                    bigcross(&bullet_x1, &bullet_y1, bitmapexplosion,bullet_dir,stage);
+                    *bullet_x = 1500;
+                    *bullet_y = 1500;
+                    *bullet_dir = -1;
+                }
+                else if (*transbomb == 2)
+                {
+                    square(&bullet_x1, &bullet_y1, bitmapexplosion,bullet_dir,stage);
+                    *bullet_x = 1500;
+                    *bullet_y = 1500;
+                    *bullet_dir = -1;
+                }
+                
             
-        
+        }
     }
 }
 void detectexplosion(struct barrier*coop,int stage[40][40],int i )

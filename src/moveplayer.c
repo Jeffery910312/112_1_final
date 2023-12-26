@@ -4,6 +4,12 @@ void player(ALLEGRO_DISPLAY *display,ALLEGRO_EVENT_QUEUE *event_queue,int stageN
 {   
 
     resourceLoadPic(&Pic);
+    ALLEGRO_FONT *font = al_load_ttf_font("./arial.ttf", 24, 0);
+    if (!font) {
+    fprintf(stderr, "Failed to load font.\n");
+    // 处理加载字体失败的情况
+    exit(EXIT_FAILURE);
+    }
     int stage [40][40];
     struct barrier barrier[144];
     int positionx = 340;
@@ -29,6 +35,10 @@ void player(ALLEGRO_DISPLAY *display,ALLEGRO_EVENT_QUEUE *event_queue,int stageN
     stagefile(stage,barrier,stageNumber);
     MaxScore = StageChanged( stage );
     int menu =0;
+
+
+    displayLoadingScreen(font);
+
     while ( menu != 3)
     {
         
@@ -71,6 +81,8 @@ void player(ALLEGRO_DISPLAY *display,ALLEGRO_EVENT_QUEUE *event_queue,int stageN
         al_flip_display();
         al_rest(0.01);
     }
+
+    displayLoadingScreen(font);
 
     // Cleanup
     

@@ -8,9 +8,11 @@ CMakeFiles/YourProgram.dir/src/bomb.c.obj
  C:/AllegroLib_5.2.8/include/allegro5/allegro5.h
  C:/AllegroLib_5.2.8/include/allegro5/allegro_acodec.h
  C:/AllegroLib_5.2.8/include/allegro5/allegro_audio.h
+ C:/AllegroLib_5.2.8/include/allegro5/allegro_font.h
  C:/AllegroLib_5.2.8/include/allegro5/allegro_image.h
  C:/AllegroLib_5.2.8/include/allegro5/allegro_native_dialog.h
  C:/AllegroLib_5.2.8/include/allegro5/allegro_primitives.h
+ C:/AllegroLib_5.2.8/include/allegro5/allegro_ttf.h
  C:/AllegroLib_5.2.8/include/allegro5/altime.h
  C:/AllegroLib_5.2.8/include/allegro5/base.h
  C:/AllegroLib_5.2.8/include/allegro5/bitmap.h
@@ -109,9 +111,11 @@ CMakeFiles/YourProgram.dir/src/detect.c.obj
  C:/AllegroLib_5.2.8/include/allegro5/allegro5.h
  C:/AllegroLib_5.2.8/include/allegro5/allegro_acodec.h
  C:/AllegroLib_5.2.8/include/allegro5/allegro_audio.h
+ C:/AllegroLib_5.2.8/include/allegro5/allegro_font.h
  C:/AllegroLib_5.2.8/include/allegro5/allegro_image.h
  C:/AllegroLib_5.2.8/include/allegro5/allegro_native_dialog.h
  C:/AllegroLib_5.2.8/include/allegro5/allegro_primitives.h
+ C:/AllegroLib_5.2.8/include/allegro5/allegro_ttf.h
  C:/AllegroLib_5.2.8/include/allegro5/altime.h
  C:/AllegroLib_5.2.8/include/allegro5/base.h
  C:/AllegroLib_5.2.8/include/allegro5/bitmap.h
@@ -210,9 +214,11 @@ CMakeFiles/YourProgram.dir/src/file.c.obj
  C:/AllegroLib_5.2.8/include/allegro5/allegro5.h
  C:/AllegroLib_5.2.8/include/allegro5/allegro_acodec.h
  C:/AllegroLib_5.2.8/include/allegro5/allegro_audio.h
+ C:/AllegroLib_5.2.8/include/allegro5/allegro_font.h
  C:/AllegroLib_5.2.8/include/allegro5/allegro_image.h
  C:/AllegroLib_5.2.8/include/allegro5/allegro_native_dialog.h
  C:/AllegroLib_5.2.8/include/allegro5/allegro_primitives.h
+ C:/AllegroLib_5.2.8/include/allegro5/allegro_ttf.h
  C:/AllegroLib_5.2.8/include/allegro5/altime.h
  C:/AllegroLib_5.2.8/include/allegro5/base.h
  C:/AllegroLib_5.2.8/include/allegro5/bitmap.h
@@ -311,9 +317,11 @@ CMakeFiles/YourProgram.dir/src/fresharray.c.obj
  C:/AllegroLib_5.2.8/include/allegro5/allegro5.h
  C:/AllegroLib_5.2.8/include/allegro5/allegro_acodec.h
  C:/AllegroLib_5.2.8/include/allegro5/allegro_audio.h
+ C:/AllegroLib_5.2.8/include/allegro5/allegro_font.h
  C:/AllegroLib_5.2.8/include/allegro5/allegro_image.h
  C:/AllegroLib_5.2.8/include/allegro5/allegro_native_dialog.h
  C:/AllegroLib_5.2.8/include/allegro5/allegro_primitives.h
+ C:/AllegroLib_5.2.8/include/allegro5/allegro_ttf.h
  C:/AllegroLib_5.2.8/include/allegro5/altime.h
  C:/AllegroLib_5.2.8/include/allegro5/base.h
  C:/AllegroLib_5.2.8/include/allegro5/bitmap.h
@@ -412,9 +420,11 @@ CMakeFiles/YourProgram.dir/src/initial_src.c.obj
  C:/AllegroLib_5.2.8/include/allegro5/allegro5.h
  C:/AllegroLib_5.2.8/include/allegro5/allegro_acodec.h
  C:/AllegroLib_5.2.8/include/allegro5/allegro_audio.h
+ C:/AllegroLib_5.2.8/include/allegro5/allegro_font.h
  C:/AllegroLib_5.2.8/include/allegro5/allegro_image.h
  C:/AllegroLib_5.2.8/include/allegro5/allegro_native_dialog.h
  C:/AllegroLib_5.2.8/include/allegro5/allegro_primitives.h
+ C:/AllegroLib_5.2.8/include/allegro5/allegro_ttf.h
  C:/AllegroLib_5.2.8/include/allegro5/altime.h
  C:/AllegroLib_5.2.8/include/allegro5/base.h
  C:/AllegroLib_5.2.8/include/allegro5/bitmap.h
@@ -513,9 +523,11 @@ CMakeFiles/YourProgram.dir/src/main.c.obj
  C:/AllegroLib_5.2.8/include/allegro5/allegro5.h
  C:/AllegroLib_5.2.8/include/allegro5/allegro_acodec.h
  C:/AllegroLib_5.2.8/include/allegro5/allegro_audio.h
+ C:/AllegroLib_5.2.8/include/allegro5/allegro_font.h
  C:/AllegroLib_5.2.8/include/allegro5/allegro_image.h
  C:/AllegroLib_5.2.8/include/allegro5/allegro_native_dialog.h
  C:/AllegroLib_5.2.8/include/allegro5/allegro_primitives.h
+ C:/AllegroLib_5.2.8/include/allegro5/allegro_ttf.h
  C:/AllegroLib_5.2.8/include/allegro5/altime.h
  C:/AllegroLib_5.2.8/include/allegro5/base.h
  C:/AllegroLib_5.2.8/include/allegro5/bitmap.h
@@ -614,9 +626,11 @@ CMakeFiles/YourProgram.dir/src/menu.c.obj
  C:/AllegroLib_5.2.8/include/allegro5/allegro5.h
  C:/AllegroLib_5.2.8/include/allegro5/allegro_acodec.h
  C:/AllegroLib_5.2.8/include/allegro5/allegro_audio.h
+ C:/AllegroLib_5.2.8/include/allegro5/allegro_font.h
  C:/AllegroLib_5.2.8/include/allegro5/allegro_image.h
  C:/AllegroLib_5.2.8/include/allegro5/allegro_native_dialog.h
  C:/AllegroLib_5.2.8/include/allegro5/allegro_primitives.h
+ C:/AllegroLib_5.2.8/include/allegro5/allegro_ttf.h
  C:/AllegroLib_5.2.8/include/allegro5/altime.h
  C:/AllegroLib_5.2.8/include/allegro5/base.h
  C:/AllegroLib_5.2.8/include/allegro5/bitmap.h
@@ -715,9 +729,11 @@ CMakeFiles/YourProgram.dir/src/moveplayer.c.obj
  C:/AllegroLib_5.2.8/include/allegro5/allegro5.h
  C:/AllegroLib_5.2.8/include/allegro5/allegro_acodec.h
  C:/AllegroLib_5.2.8/include/allegro5/allegro_audio.h
+ C:/AllegroLib_5.2.8/include/allegro5/allegro_font.h
  C:/AllegroLib_5.2.8/include/allegro5/allegro_image.h
  C:/AllegroLib_5.2.8/include/allegro5/allegro_native_dialog.h
  C:/AllegroLib_5.2.8/include/allegro5/allegro_primitives.h
+ C:/AllegroLib_5.2.8/include/allegro5/allegro_ttf.h
  C:/AllegroLib_5.2.8/include/allegro5/altime.h
  C:/AllegroLib_5.2.8/include/allegro5/base.h
  C:/AllegroLib_5.2.8/include/allegro5/bitmap.h
@@ -816,9 +832,11 @@ CMakeFiles/YourProgram.dir/src/moveplayer2.c.obj
  C:/AllegroLib_5.2.8/include/allegro5/allegro5.h
  C:/AllegroLib_5.2.8/include/allegro5/allegro_acodec.h
  C:/AllegroLib_5.2.8/include/allegro5/allegro_audio.h
+ C:/AllegroLib_5.2.8/include/allegro5/allegro_font.h
  C:/AllegroLib_5.2.8/include/allegro5/allegro_image.h
  C:/AllegroLib_5.2.8/include/allegro5/allegro_native_dialog.h
  C:/AllegroLib_5.2.8/include/allegro5/allegro_primitives.h
+ C:/AllegroLib_5.2.8/include/allegro5/allegro_ttf.h
  C:/AllegroLib_5.2.8/include/allegro5/altime.h
  C:/AllegroLib_5.2.8/include/allegro5/base.h
  C:/AllegroLib_5.2.8/include/allegro5/bitmap.h
@@ -917,9 +935,11 @@ CMakeFiles/YourProgram.dir/src/renew.c.obj
  C:/AllegroLib_5.2.8/include/allegro5/allegro5.h
  C:/AllegroLib_5.2.8/include/allegro5/allegro_acodec.h
  C:/AllegroLib_5.2.8/include/allegro5/allegro_audio.h
+ C:/AllegroLib_5.2.8/include/allegro5/allegro_font.h
  C:/AllegroLib_5.2.8/include/allegro5/allegro_image.h
  C:/AllegroLib_5.2.8/include/allegro5/allegro_native_dialog.h
  C:/AllegroLib_5.2.8/include/allegro5/allegro_primitives.h
+ C:/AllegroLib_5.2.8/include/allegro5/allegro_ttf.h
  C:/AllegroLib_5.2.8/include/allegro5/altime.h
  C:/AllegroLib_5.2.8/include/allegro5/base.h
  C:/AllegroLib_5.2.8/include/allegro5/bitmap.h
@@ -1018,9 +1038,11 @@ CMakeFiles/YourProgram.dir/src/resource.c.obj
  C:/AllegroLib_5.2.8/include/allegro5/allegro5.h
  C:/AllegroLib_5.2.8/include/allegro5/allegro_acodec.h
  C:/AllegroLib_5.2.8/include/allegro5/allegro_audio.h
+ C:/AllegroLib_5.2.8/include/allegro5/allegro_font.h
  C:/AllegroLib_5.2.8/include/allegro5/allegro_image.h
  C:/AllegroLib_5.2.8/include/allegro5/allegro_native_dialog.h
  C:/AllegroLib_5.2.8/include/allegro5/allegro_primitives.h
+ C:/AllegroLib_5.2.8/include/allegro5/allegro_ttf.h
  C:/AllegroLib_5.2.8/include/allegro5/altime.h
  C:/AllegroLib_5.2.8/include/allegro5/base.h
  C:/AllegroLib_5.2.8/include/allegro5/bitmap.h
@@ -1119,9 +1141,11 @@ CMakeFiles/YourProgram.dir/src/score.c.obj
  C:/AllegroLib_5.2.8/include/allegro5/allegro5.h
  C:/AllegroLib_5.2.8/include/allegro5/allegro_acodec.h
  C:/AllegroLib_5.2.8/include/allegro5/allegro_audio.h
+ C:/AllegroLib_5.2.8/include/allegro5/allegro_font.h
  C:/AllegroLib_5.2.8/include/allegro5/allegro_image.h
  C:/AllegroLib_5.2.8/include/allegro5/allegro_native_dialog.h
  C:/AllegroLib_5.2.8/include/allegro5/allegro_primitives.h
+ C:/AllegroLib_5.2.8/include/allegro5/allegro_ttf.h
  C:/AllegroLib_5.2.8/include/allegro5/altime.h
  C:/AllegroLib_5.2.8/include/allegro5/base.h
  C:/AllegroLib_5.2.8/include/allegro5/bitmap.h

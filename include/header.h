@@ -11,6 +11,8 @@
 #include <time.h>
 #include <allegro5/allegro_audio.h>
 #include <allegro5/allegro_acodec.h>
+#include <allegro5/allegro_font.h>
+#include <allegro5/allegro_ttf.h>
 
 #define DISPLAY_WIDTH   1280
 #define DISPLAY_HEIGHT  720
@@ -77,6 +79,7 @@ void detectexplosion(struct barrier*,int [40][40],int);
 void fresharray(int [40][40],struct barrier [144]);
 void DetonateBomb(ALLEGRO_EVENT_QUEUE *event_queue_,int *bullet_x,int *bullet_y,int* bullet_dir,int*transbomb,ALLEGRO_BITMAP *bitmapexplosion,int [40][40]);
 int StageChanged(int [40][40]);
+void displayLoadingScreen(ALLEGRO_FONT *font);
 
 
 //炸彈種類

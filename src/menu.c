@@ -285,3 +285,11 @@ void endgame(ALLEGRO_DISPLAY*display,ALLEGRO_EVENT_QUEUE *event_queue)
     
 
 }
+
+void displayLoadingScreen(ALLEGRO_FONT *font) {
+    al_clear_to_color(al_map_rgb(0, 0, 0));
+    al_draw_text(font, al_map_rgb(255, 255, 255), 400, 300, ALLEGRO_ALIGN_CENTER, "Loading...");//加載頁面
+    printf("Loading screen displayed.\n");
+    al_flip_display();
+    al_rest(0.2);
+}
