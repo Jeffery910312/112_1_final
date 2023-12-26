@@ -81,6 +81,7 @@ void fresharray(int [40][40],struct barrier [144]);
 void DetonateBomb(ALLEGRO_EVENT_QUEUE *event_queue_,int *bullet_x,int *bullet_y,int* bullet_dir,int*transbomb,ALLEGRO_BITMAP *bitmapexplosion,int [40][40]);
 int StageChanged(int [40][40]);
 void displayLoadingScreen(ALLEGRO_FONT *font , struct ResourcePic );
+void ScoreDisplay(ALLEGRO_FONT *font,int);
 
 
 //炸彈種類

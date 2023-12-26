@@ -4,6 +4,7 @@ void player(ALLEGRO_DISPLAY *display,ALLEGRO_EVENT_QUEUE *event_queue,int stageN
 {   
 
     ALLEGRO_FONT *font = al_load_ttf_font("arial.ttf", 60, 0);
+    ALLEGRO_FONT *font2 = al_load_ttf_font("arial.ttf", 32, 0);
     if (!font) {
     fprintf(stderr, "Failed to load font.\n");
     // 处理加载字体失败的情况
@@ -43,6 +44,9 @@ void player(ALLEGRO_DISPLAY *display,ALLEGRO_EVENT_QUEUE *event_queue,int stageN
         
         al_draw_bitmap(Pic.back, 0, 0, 0);
         al_draw_bitmap(Pic.bitmap1, 290, 0, 0);
+
+        al_draw_filled_rectangle(1035 , 100 , 1235 ,300,al_map_rgb(40, 40, 40));
+
         stageprint(stage,Pic.bitmapstone,Pic.redfish,Pic.yellowfish,Pic.bluefish,Pic.grass);
         al_draw_bitmap(Pic.bitmap2, positionx, positiony, 0);
         if(transbomb==0)
@@ -61,6 +65,7 @@ void player(ALLEGRO_DISPLAY *display,ALLEGRO_EVENT_QUEUE *event_queue,int stageN
         al_draw_bitmap(Pic.bitmap_left,arrowL_x,arrowL_y,0);
         al_draw_bitmap(Pic.bitmap_up,arrowU_x,arrowU_y,0);
         al_draw_bitmap(Pic.bitmap_down,arrowD_x,arrowD_y,0);
+        ScoreDisplay(font2,CurrentScore);
 
 
         DetonateBomb(event_queue, &bullet_x, &bullet_y, &bullet_dir, &transbomb,Pic.bitmapexplosion,stage);
@@ -73,10 +78,10 @@ void player(ALLEGRO_DISPLAY *display,ALLEGRO_EVENT_QUEUE *event_queue,int stageN
 
         if (score != previousScore)
         {
-            CurrentScore = MaxScore - score;
-            printf("\nscore = %d\n", CurrentScore);
+            CurrentScore = MaxScore - score;    
             previousScore = score;
         }
+
 
         fresharray(stage,barrier);
         al_rest(0.001);

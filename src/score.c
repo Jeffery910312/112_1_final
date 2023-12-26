@@ -20,3 +20,9 @@ int StageChanged(int stage[40][40]) {
     }
     return score; 
 }
+ 
+void ScoreDisplay(ALLEGRO_FONT *font,int score){
+    char scoreText[10];
+    snprintf(scoreText, sizeof(scoreText), "Score: %d", score);
+    al_draw_text(font, al_map_rgb(240, 240, 240), 1045, 110, ALLEGRO_ALIGN_LEFT, scoreText);
+}
