@@ -127,7 +127,7 @@ int menu_second(ALLEGRO_DISPLAY*display,ALLEGRO_EVENT_QUEUE *event_queue,struct 
                     al_play_sample(start, 1, 0, 1, ALLEGRO_PLAYMODE_ONCE,NULL);
                     buttonPressed = false;
                     menu = 1;
-                    printf("level1!\n");
+                    printf("\nlevel1!\n");
 
                 }
                 if (mouseX >= DISPLAY_WIDTH/2 -38 && mouseX <= DISPLAY_WIDTH/2 +37 && mouseY >= DISPLAY_HEIGHT/2 - 225 && mouseY <= DISPLAY_HEIGHT/2 - 150) 
@@ -135,15 +135,15 @@ int menu_second(ALLEGRO_DISPLAY*display,ALLEGRO_EVENT_QUEUE *event_queue,struct 
                     al_play_sample(start, 1, 0, 1, ALLEGRO_PLAYMODE_ONCE,NULL);
                     buttonPressed = false;
                     menu = 2;
-                    printf("level2!\n");
+                    printf("\nlevel2!\n");
                 }
                 if (mouseX >= DISPLAY_WIDTH/2 +87 && mouseX <= DISPLAY_WIDTH/2 +162 && mouseY >= DISPLAY_HEIGHT/2 - 225 && mouseY <= DISPLAY_HEIGHT/2 - 150) 
                 {   
 
                     buttonPressed = false;
                     menu = 3;
-                    al_play_sample(button, 1, 0, 1, ALLEGRO_PLAYMODE_ONCE,NULL);
-                    printf("level3!\n");
+                    al_play_sample(start, 1, 0, 1, ALLEGRO_PLAYMODE_ONCE,NULL);
+                    printf("\nlevel3!\n");
                 }
                 if (mouseX >= DISPLAY_WIDTH/2 - 100 && mouseX <= DISPLAY_WIDTH/2 +100 && DISPLAY_HEIGHT/2 - 75 && mouseY <= DISPLAY_HEIGHT/2) 
                 {
