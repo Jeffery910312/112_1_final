@@ -49,7 +49,6 @@ struct ResourcePic
     ALLEGRO_BITMAP *bitmap_up ;
     ALLEGRO_BITMAP *bitmap_down ;
     ALLEGRO_BITMAP *back ;
-
 };
 
 struct ResourceAudio

@@ -18,8 +18,7 @@ void resourceInitPic(struct ResourcePic* Pic)
     Pic->bitmap_left = NULL;
     Pic->bitmap_up = NULL;
     Pic->bitmap_down = NULL;
-    Pic->back = NULL;
-    
+    Pic->back = NULL;  
 }
 
 void resourceLoadPic(struct ResourcePic* Pic)
@@ -63,7 +62,6 @@ void resourceDestoryPic(struct ResourcePic* Pic)
     al_destroy_bitmap(Pic->bitmap_left);
     al_destroy_bitmap(Pic->bitmap_up);
     al_destroy_bitmap(Pic->bitmap_down);
-    al_destroy_bitmap(Pic->back);
 }
 
 void resourceInitAudio(struct ResourceAudio* Audio)

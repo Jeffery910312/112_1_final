@@ -45,7 +45,7 @@ void player(ALLEGRO_DISPLAY *display,ALLEGRO_EVENT_QUEUE *event_queue,int stageN
         al_draw_bitmap(Pic.back, 0, 0, 0);
         al_draw_bitmap(Pic.bitmap1, 290, 0, 0);
 
-        al_draw_filled_rectangle(1035 , 100 , 1235 ,300,al_map_rgb(40, 40, 40));
+        al_draw_filled_rectangle(1035 , 50 , 1235 ,400,al_map_rgb(180, 135, 65));
 
         stageprint(stage,Pic.bitmapstone,Pic.redfish,Pic.yellowfish,Pic.bluefish,Pic.grass);
         al_draw_bitmap(Pic.bitmap2, positionx, positiony, 0);
