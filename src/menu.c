@@ -293,5 +293,5 @@ void displayLoadingScreen(ALLEGRO_FONT *font , struct ResourcePic Pic) {
     al_draw_text(font, al_map_rgb(240, 240, 240), 410, 300, ALLEGRO_ALIGN_LEFT, "Loading...");//加載頁面
     printf("Loading screen displayed.\n");
     al_flip_display();
-    al_rest(1);
+    al_rest(0.5);
 }
