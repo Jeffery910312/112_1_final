@@ -113,7 +113,7 @@ void DetonateBomb(ALLEGRO_EVENT_QUEUE *event_queue, int *bullet_x, int *bullet_y
     al_peek_next_event(event_queue, &ev);
     int bullet_x1 = *bullet_x;
     int bullet_y1 = *bullet_y;
-    if(bullet_x1 > 340 && bullet_x1 < 990) //avoid detonate outside display area
+    if(bullet_x1 >= 340 && bullet_x1 < 990) //avoid detonate outside display area
     { 
         if (ev.type == ALLEGRO_EVENT_KEY_DOWN && ev.keyboard.keycode == ALLEGRO_KEY_ENTER)
         {
