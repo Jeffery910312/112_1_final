@@ -472,13 +472,13 @@ void square(int *bullet_x,int *bullet_y,ALLEGRO_BITMAP *bitmapexplosion,int *bul
     if(*bullet_y + 50 < 655 && *bullet_x + 50 < 915){
         al_draw_bitmap(bitmapexplosion, *bullet_x+50, *bullet_y+50, 0);
     }
-    if(*bullet_y + 50 < 655 && *bullet_x - 50 < 305){
+    if(*bullet_y + 50 < 655 && *bullet_x - 50 >= 305){
         al_draw_bitmap(bitmapexplosion, *bullet_x-50, *bullet_y+50, 0);
     }
     if(*bullet_y - 50 >= 25 && *bullet_x + 50 < 915){
         al_draw_bitmap(bitmapexplosion, *bullet_x+50, *bullet_y-50, 0);
     }
-    if(*bullet_y - 50 >= 25 && *bullet_x - 50 < 305){
+    if(*bullet_y - 50 >= 25 && *bullet_x - 50 >= 305){
         al_draw_bitmap(bitmapexplosion, *bullet_x-50, *bullet_y-50, 0);
     }
 
