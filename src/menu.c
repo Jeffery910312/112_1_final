@@ -289,7 +289,7 @@ void endgame(ALLEGRO_DISPLAY*display,ALLEGRO_EVENT_QUEUE *event_queue,struct Res
 
 void displayLoadingScreen(ALLEGRO_FONT *font , struct ResourcePic Pic) {
     al_draw_bitmap(Pic.back,0, 0, 0);
-    al_draw_filled_rectangle(400 , 300 , 700 ,380,al_map_rgb(40, 40, 10));
+    al_draw_filled_rectangle(400 , 300 , 700 ,380,al_map_rgb(40, 40, 40));
     al_draw_text(font, al_map_rgb(240, 240, 240), 410, 300, ALLEGRO_ALIGN_LEFT, "Loading...");//加載頁面
     printf("Loading screen displayed.\n");
     al_flip_display();

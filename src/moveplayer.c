@@ -33,8 +33,8 @@ void player(ALLEGRO_DISPLAY *display,ALLEGRO_EVENT_QUEUE *event_queue,int stageN
     initial_array(barrier);
     stagefile(stage,barrier,stageNumber);
     MaxScore = StageChanged( stage );
+    int previousScore = MaxScore;
     int menu =0;
-
 
     displayLoadingScreen(font,Pic);
 
@@ -70,15 +70,21 @@ void player(ALLEGRO_DISPLAY *display,ALLEGRO_EVENT_QUEUE *event_queue,int stageN
         renew_arrow(&positionx,&positiony,&arrowD_x,&arrowU_x,&arrowR_y,&arrowL_y);
         renew_bullet(&bullet_dir,&bullet_x,&bullet_y);
         score = StageChanged( stage );
-        CurrentScore = MaxScore - score;
-        printf("score = %d\n",CurrentScore);
+
+        if (score != previousScore)
+        {
+            CurrentScore = MaxScore - score;
+            printf("\nscore = %d\n", CurrentScore);
+            previousScore = score;
+        }
+
         fresharray(stage,barrier);
-        al_rest(0.03);
+        al_rest(0.001);
         
         // 繪製畫面
         
         al_flip_display();
-        al_rest(0.01);
+        al_rest(0.001);
     }
 
     displayLoadingScreen(font,Pic);
