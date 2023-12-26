@@ -21,9 +21,13 @@ void player(ALLEGRO_DISPLAY *display,ALLEGRO_EVENT_QUEUE *event_queue,int stageN
     int arrowU_y = 600 ;    
     int arrowD_x = 1280;
     int arrowD_y = 50  ;
+    int score = 0;
+    int MaxScore = 0;
+    int CurrentScore = 0;
 
     initial_array(barrier);
     stagefile(stage,barrier,stageNumber);
+    MaxScore = StageChanged( stage );
     int menu =0;
     while ( menu != 3)
     {
@@ -56,6 +60,9 @@ void player(ALLEGRO_DISPLAY *display,ALLEGRO_EVENT_QUEUE *event_queue,int stageN
         detectbarrier(barrier,&bullet_x,&bullet_y,&bullet_dir,&transbomb,Pic.bitmapexplosion,stage);
         renew_arrow(&positionx,&positiony,&arrowD_x,&arrowU_x,&arrowR_y,&arrowL_y);
         renew_bullet(&bullet_dir,&bullet_x,&bullet_y);
+        score = StageChanged( stage );
+        CurrentScore = MaxScore - score;
+        printf("score = %d\n",CurrentScore);
         fresharray(stage,barrier);
         al_rest(0.03);
         

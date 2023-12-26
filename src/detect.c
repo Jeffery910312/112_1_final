@@ -150,7 +150,7 @@ void detectexplosion(struct barrier*coop,int stage[40][40],int i )
     for (a=0;a<i;a++)       
     {
         printf("detectexplosion\n");
-        if(stage[coop[a].initial_y][coop[a].initial_x]!=1)
+        if(stage[coop[a].initial_y][coop[a].initial_x]!=4)
         {
             stage[coop[a].initial_y][coop[a].initial_x]=0;
         }

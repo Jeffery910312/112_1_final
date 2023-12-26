@@ -64,5 +64,11 @@
   "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/YourProgram.dir/includes_C.rsp -g -o CMakeFiles\\YourProgram.dir\\src\\resource.c.obj -c \"C:\\My Program\\C\\112-1\\gameproject_test_1225_2\\src\\resource.c\"",
   "file": "C:/My Program/C/112-1/gameproject_test_1225_2/src/resource.c",
   "output": "CMakeFiles/YourProgram.dir/src/resource.c.obj"
+},
+{
+  "directory": "C:/My Program/C/112-1/gameproject_test_1225_2/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/YourProgram.dir/includes_C.rsp -g -o CMakeFiles\\YourProgram.dir\\src\\score.c.obj -c \"C:\\My Program\\C\\112-1\\gameproject_test_1225_2\\src\\score.c\"",
+  "file": "C:/My Program/C/112-1/gameproject_test_1225_2/src/score.c",
+  "output": "CMakeFiles/YourProgram.dir/src/score.c.obj"
 }
 ]

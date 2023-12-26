@@ -19,6 +19,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/My Program/C/112-1/gameproject_test_1225_2/src/moveplayer2.c" "CMakeFiles/YourProgram.dir/src/moveplayer2.c.obj" "gcc" "CMakeFiles/YourProgram.dir/src/moveplayer2.c.obj.d"
   "C:/My Program/C/112-1/gameproject_test_1225_2/src/renew.c" "CMakeFiles/YourProgram.dir/src/renew.c.obj" "gcc" "CMakeFiles/YourProgram.dir/src/renew.c.obj.d"
   "C:/My Program/C/112-1/gameproject_test_1225_2/src/resource.c" "CMakeFiles/YourProgram.dir/src/resource.c.obj" "gcc" "CMakeFiles/YourProgram.dir/src/resource.c.obj.d"
+  "C:/My Program/C/112-1/gameproject_test_1225_2/src/score.c" "CMakeFiles/YourProgram.dir/src/score.c.obj" "gcc" "CMakeFiles/YourProgram.dir/src/score.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

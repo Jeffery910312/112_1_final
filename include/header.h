@@ -76,6 +76,7 @@ void detectbarrier(struct barrier [144],int *,int *,int*,int*,ALLEGRO_BITMAP *,i
 void detectexplosion(struct barrier*,int [40][40],int);
 void fresharray(int [40][40],struct barrier [144]);
 void DetonateBomb(ALLEGRO_EVENT_QUEUE *event_queue_,int *bullet_x,int *bullet_y,int* bullet_dir,int*transbomb,ALLEGRO_BITMAP *bitmapexplosion,int [40][40]);
+int StageChanged(int [40][40]);
 
 
 //炸彈種類

@@ -25,6 +25,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/YourProgram.dir/src/renew.c.obj.d"
   "CMakeFiles/YourProgram.dir/src/resource.c.obj"
   "CMakeFiles/YourProgram.dir/src/resource.c.obj.d"
+  "CMakeFiles/YourProgram.dir/src/score.c.obj"
+  "CMakeFiles/YourProgram.dir/src/score.c.obj.d"
 )
 
 # Per-language clean rules from dependency scanning.

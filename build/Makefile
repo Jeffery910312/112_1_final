@@ -392,6 +392,30 @@ src/resource.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\YourProgram.dir\build.make CMakeFiles/YourProgram.dir/src/resource.c.s
 .PHONY : src/resource.c.s
 
+src/score.obj: src/score.c.obj
+.PHONY : src/score.obj
+
+# target to build an object file
+src/score.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\YourProgram.dir\build.make CMakeFiles/YourProgram.dir/src/score.c.obj
+.PHONY : src/score.c.obj
+
+src/score.i: src/score.c.i
+.PHONY : src/score.i
+
+# target to preprocess a source file
+src/score.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\YourProgram.dir\build.make CMakeFiles/YourProgram.dir/src/score.c.i
+.PHONY : src/score.c.i
+
+src/score.s: src/score.c.s
+.PHONY : src/score.s
+
+# target to generate assembly for a file
+src/score.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\YourProgram.dir\build.make CMakeFiles/YourProgram.dir/src/score.c.s
+.PHONY : src/score.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -434,6 +458,9 @@ help:
 	@echo ... src/resource.obj
 	@echo ... src/resource.i
 	@echo ... src/resource.s
+	@echo ... src/score.obj
+	@echo ... src/score.i
+	@echo ... src/score.s
 .PHONY : help
 
 

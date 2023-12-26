@@ -43,19 +43,19 @@ void stageprint(int stage[40][40],ALLEGRO_BITMAP *bitmapstone,ALLEGRO_BITMAP *re
         {
             if(stage[j][i]==1)
             {
-                al_draw_bitmap(bitmapstone,x+50*i ,y+50*j,0);
+                al_draw_bitmap(redfish,x+50*i ,y+50*j,0);
             }
             if(stage[j][i]==2)
             {
-                al_draw_bitmap(redfish,x+50*i ,y+50*j,0);
+                al_draw_bitmap(yellowfish,x+50*i ,y+50*j,0);
             }
             if(stage[j][i]==3)
             {
-                al_draw_bitmap(yellowfish,x+50*i ,y+50*j,0);
+                al_draw_bitmap(bluefish,x+50*i ,y+50*j,0);
             }
             if(stage[j][i]==4)
             {
-                al_draw_bitmap(bluefish,x+50*i ,y+50*j,0);
+                al_draw_bitmap(bitmapstone,x+50*i ,y+50*j,0);
             }
             if(stage[j][i]==5)
             {
