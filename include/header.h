@@ -15,7 +15,7 @@
 #include <allegro5/allegro_ttf.h>
 
 #define DISPLAY_WIDTH   1280
-#define DISPLAY_HEIGHT  720
+#define DISPLAY_HEIGHT  700
 #define RIGHT_BOUNDARY  940
 #define LEFT_BOUNDARY  290
 #define UPPER_BOUNDARY  50
@@ -48,6 +48,7 @@ struct ResourcePic
     ALLEGRO_BITMAP *bitmap_left ;
     ALLEGRO_BITMAP *bitmap_up ;
     ALLEGRO_BITMAP *bitmap_down ;
+    ALLEGRO_BITMAP *back ;
 
 };
 
@@ -64,10 +65,10 @@ struct ResourceAudio
 //function
 void initial_src();//new4
 void initial_array(struct barrier [144]);
-int menu_first(ALLEGRO_DISPLAY*,ALLEGRO_EVENT_QUEUE *);//new2
-int menu_second(ALLEGRO_DISPLAY*,ALLEGRO_EVENT_QUEUE *);//new3
-void endgame(ALLEGRO_DISPLAY*,ALLEGRO_EVENT_QUEUE *);
-int returnfirstmenu(ALLEGRO_EVENT_QUEUE *,ALLEGRO_DISPLAY *,int*,int*);
+int menu_first(ALLEGRO_DISPLAY*,ALLEGRO_EVENT_QUEUE *,struct ResourcePic );//new2
+int menu_second(ALLEGRO_DISPLAY*,ALLEGRO_EVENT_QUEUE *,struct ResourcePic);//new3
+void endgame(ALLEGRO_DISPLAY*,ALLEGRO_EVENT_QUEUE *,struct ResourcePic );
+int returnfirstmenu(ALLEGRO_EVENT_QUEUE *,ALLEGRO_DISPLAY *,int*,int*,struct ResourcePic);
 void player(ALLEGRO_DISPLAY*,ALLEGRO_EVENT_QUEUE *,int stageNumber,struct ResourcePic);
 int moveplayer(ALLEGRO_EVENT_QUEUE *,int * ,int *,int *,int *,int*,int*);
 void stagefile(int [40][40], struct barrier[144] ,int stageNumber);
@@ -79,7 +80,7 @@ void detectexplosion(struct barrier*,int [40][40],int);
 void fresharray(int [40][40],struct barrier [144]);
 void DetonateBomb(ALLEGRO_EVENT_QUEUE *event_queue_,int *bullet_x,int *bullet_y,int* bullet_dir,int*transbomb,ALLEGRO_BITMAP *bitmapexplosion,int [40][40]);
 int StageChanged(int [40][40]);
-void displayLoadingScreen(ALLEGRO_FONT *font);
+void displayLoadingScreen(ALLEGRO_FONT *font , struct ResourcePic );
 
 
 //炸彈種類

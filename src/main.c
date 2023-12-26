@@ -7,9 +7,10 @@ int main ()
     ALLEGRO_EVENT_QUEUE *event_queue = NULL;
     al_init_font_addon(); 
     al_init_ttf_addon();
+    initial_src();
     struct ResourcePic Pic;
     resourceInitPic(&Pic);
-    initial_src();
+    resourceLoadPic(&Pic);
     display = al_create_display(DISPLAY_WIDTH,DISPLAY_HEIGHT);
     event_queue = al_create_event_queue();
     al_register_event_source(event_queue, al_get_display_event_source(display));
@@ -23,7 +24,7 @@ int main ()
        //endgame(display,event_queue);
         printf("hi");
         menu=0;
-        menu=menu_second(display,event_queue);
+        menu=menu_second(display,event_queue,Pic);
         if(menu==1)
         {
             player(display,event_queue,1,Pic);

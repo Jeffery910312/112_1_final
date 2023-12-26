@@ -1,8 +1,9 @@
 #include "header.h"
 
-int menu_first(ALLEGRO_DISPLAY* display_1,ALLEGRO_EVENT_QUEUE *event_queue_1) 
+int menu_first(ALLEGRO_DISPLAY* display_1,ALLEGRO_EVENT_QUEUE *event_queue_1,struct ResourcePic Pic) 
 {
     al_clear_to_color(al_map_rgb(255, 255, 255));
+    al_draw_bitmap(Pic.back,0, 0, 0);
     ALLEGRO_BITMAP* bitmap0 = NULL;
     ALLEGRO_BITMAP* bitmap1 = NULL;
     ALLEGRO_BITMAP* contiune = NULL;
@@ -34,7 +35,7 @@ int menu_first(ALLEGRO_DISPLAY* display_1,ALLEGRO_EVENT_QUEUE *event_queue_1)
                 int mouseX = ev.mouse.x;
                 int mouseY = ev.mouse.y;
                 // Check if the mouse click is within the button area (for simplicity, a rectangle)
-                if (mouseX >= 150 && mouseX <= 350 && mouseY >= 75 && mouseY <= 150) 
+                if (mouseX >= DISPLAY_WIDTH/2 - 100 && mouseX <= DISPLAY_WIDTH/2 +100 && mouseY >= DISPLAY_HEIGHT/2 - 225 && mouseY <= DISPLAY_HEIGHT/2 - 150) 
                 {
                     al_play_sample(button, 1, 0, 1, ALLEGRO_PLAYMODE_ONCE,NULL);
                     printf("restart game!\n");
@@ -42,7 +43,7 @@ int menu_first(ALLEGRO_DISPLAY* display_1,ALLEGRO_EVENT_QUEUE *event_queue_1)
                     break;
                     
                 }
-                if (mouseX >= 150 && mouseX <= 350 && mouseY >= 225 && mouseY <= 300) 
+                if (mouseX >= DISPLAY_WIDTH/2 - 100 && mouseX <= DISPLAY_WIDTH/2 +100 && DISPLAY_HEIGHT/2 - 75 && mouseY <= DISPLAY_HEIGHT/2) 
                 {
                     al_play_sample(button, 1, 0, 1, ALLEGRO_PLAYMODE_ONCE,NULL);
                     //buttonPressed = false;
@@ -51,7 +52,7 @@ int menu_first(ALLEGRO_DISPLAY* display_1,ALLEGRO_EVENT_QUEUE *event_queue_1)
                     break;
                     
                 }
-                if (mouseX >= 150 && mouseX <= 350 && mouseY >= 375 && mouseY <= 450) 
+                if (mouseX >= DISPLAY_WIDTH/2 - 100 && mouseX <= DISPLAY_WIDTH/2 +100 && mouseY >= DISPLAY_HEIGHT/2 + 75 && mouseY <= DISPLAY_HEIGHT/2 + 150) 
                 {
                     al_play_sample(button, 1, 0, 1, ALLEGRO_PLAYMODE_ONCE,NULL);
                     buttonPressed = false;
@@ -63,10 +64,10 @@ int menu_first(ALLEGRO_DISPLAY* display_1,ALLEGRO_EVENT_QUEUE *event_queue_1)
             } 
         }
         //al_clear_to_color(al_map_rgb(255, 255, 255));
-        al_draw_bitmap(bitmap0,0, 0, 0);
-        al_draw_bitmap(bitmap1,150, 75, 0);
-        al_draw_bitmap(contiune,150, 225, 0);
-        al_draw_bitmap(exit,150, 375, 0);
+        al_draw_bitmap(bitmap0,DISPLAY_WIDTH/2 -250 , DISPLAY_HEIGHT/2 - 300 , 0);
+        al_draw_bitmap(bitmap1,DISPLAY_WIDTH/2 -100, DISPLAY_HEIGHT/2 - 225, 0);
+        al_draw_bitmap(contiune,DISPLAY_WIDTH/2 -100, DISPLAY_HEIGHT/2 - 75, 0);
+        al_draw_bitmap(exit,DISPLAY_WIDTH/2 -100, DISPLAY_HEIGHT/2 + 75, 0);
         al_flip_display();    
     }
     al_destroy_bitmap(bitmap0);
@@ -80,9 +81,9 @@ int menu_first(ALLEGRO_DISPLAY* display_1,ALLEGRO_EVENT_QUEUE *event_queue_1)
 }
 
 
-int menu_second(ALLEGRO_DISPLAY*display,ALLEGRO_EVENT_QUEUE *event_queue) 
+int menu_second(ALLEGRO_DISPLAY*display,ALLEGRO_EVENT_QUEUE *event_queue,struct ResourcePic Pic) 
 {
-    al_clear_to_color(al_map_rgb(255, 255, 255));
+    al_draw_bitmap(Pic.back,0, 0, 0);
     ALLEGRO_BITMAP* bitmap0 = NULL;
     ALLEGRO_BITMAP* bitmap1 = NULL;
     ALLEGRO_BITMAP* bitmap1_1 = NULL;
@@ -120,7 +121,7 @@ int menu_second(ALLEGRO_DISPLAY*display,ALLEGRO_EVENT_QUEUE *event_queue)
                 int mouseX = ev.mouse.x;
                 int mouseY = ev.mouse.y;
                 // Check if the mouse click is within the button area (for simplicity, a rectangle)
-                if (mouseX >= 87 && mouseX <= 162 && mouseY >= 75 && mouseY <= 150) 
+                if (mouseX >= DISPLAY_WIDTH/2 -163 && mouseX <= DISPLAY_WIDTH/2 -87 && mouseY >= DISPLAY_HEIGHT/2 - 225 && mouseY <= DISPLAY_HEIGHT/2 - 150) 
                 {
 
                     al_play_sample(start, 1, 0, 1, ALLEGRO_PLAYMODE_ONCE,NULL);
@@ -129,14 +130,14 @@ int menu_second(ALLEGRO_DISPLAY*display,ALLEGRO_EVENT_QUEUE *event_queue)
                     printf("level1!\n");
 
                 }
-                if (mouseX >= 212 && mouseX <= 287 && mouseY >= 75 && mouseY <= 150) 
+                if (mouseX >= DISPLAY_WIDTH/2 -38 && mouseX <= DISPLAY_WIDTH/2 +37 && mouseY >= DISPLAY_HEIGHT/2 - 225 && mouseY <= DISPLAY_HEIGHT/2 - 150) 
                 {
                     al_play_sample(start, 1, 0, 1, ALLEGRO_PLAYMODE_ONCE,NULL);
                     buttonPressed = false;
                     menu = 2;
                     printf("level2!\n");
                 }
-                if (mouseX >= 337 && mouseX <= 412 && mouseY >= 75 && mouseY <= 150) 
+                if (mouseX >= DISPLAY_WIDTH/2 +87 && mouseX <= DISPLAY_WIDTH/2 +162 && mouseY >= DISPLAY_HEIGHT/2 - 225 && mouseY <= DISPLAY_HEIGHT/2 - 150) 
                 {   
 
                     buttonPressed = false;
@@ -144,14 +145,14 @@ int menu_second(ALLEGRO_DISPLAY*display,ALLEGRO_EVENT_QUEUE *event_queue)
                     al_play_sample(button, 1, 0, 1, ALLEGRO_PLAYMODE_ONCE,NULL);
                     printf("level3!\n");
                 }
-                if (mouseX >= 150 && mouseX <= 350 && mouseY >= 225 && mouseY <= 300) 
+                if (mouseX >= DISPLAY_WIDTH/2 - 100 && mouseX <= DISPLAY_WIDTH/2 +100 && DISPLAY_HEIGHT/2 - 75 && mouseY <= DISPLAY_HEIGHT/2) 
                 {
                     buttonPressed = false;
                     menu= 4;
                     //al_play_sample(button, 1, 0, 1, ALLEGRO_PLAYMODE_ONCE,NULL);
                     printf(" game history!\n");
                 }
-                if (mouseX >= 150 && mouseX <= 350 && mouseY >= 375 && mouseY <= 450) 
+                if (mouseX >= DISPLAY_WIDTH/2 - 100 && mouseX <= DISPLAY_WIDTH/2 +100 && mouseY >= DISPLAY_HEIGHT/2 + 75 && mouseY <= DISPLAY_HEIGHT/2 + 150) 
                 {
                     
                     menu = 5;
@@ -163,12 +164,12 @@ int menu_second(ALLEGRO_DISPLAY*display,ALLEGRO_EVENT_QUEUE *event_queue)
         }
         //al_clear_to_color(al_map_rgb(255, 255, 255));
         // Draw the button
-        al_draw_bitmap(bitmap0,0, 0, 0);
-        al_draw_bitmap(bitmap1,87, 75, 0);
-        al_draw_bitmap(bitmap1_1,212, 75, 0);
-        al_draw_bitmap(bitmap1_2,337, 75, 0);
-        al_draw_bitmap(contiune,150, 225, 0);
-        al_draw_bitmap(exit,150, 375, 0);
+        al_draw_bitmap(bitmap0,DISPLAY_WIDTH/2 -250, DISPLAY_HEIGHT/2 - 300, 0);
+        al_draw_bitmap(bitmap1,DISPLAY_WIDTH/2 -163, DISPLAY_HEIGHT/2 - 225 , 0);
+        al_draw_bitmap(bitmap1_1,DISPLAY_WIDTH/2 -38, DISPLAY_HEIGHT/2 - 225 , 0);
+        al_draw_bitmap(bitmap1_2,DISPLAY_WIDTH/2 +87, DISPLAY_HEIGHT/2 - 225 , 0);
+        al_draw_bitmap(contiune,DISPLAY_WIDTH/2 -100, DISPLAY_HEIGHT/2 - 75, 0);
+        al_draw_bitmap(exit,DISPLAY_WIDTH/2 -100, DISPLAY_HEIGHT/2 + 75 , 0);
         al_flip_display();
         //al_rest(0.01);
     }
@@ -181,18 +182,18 @@ int menu_second(ALLEGRO_DISPLAY*display,ALLEGRO_EVENT_QUEUE *event_queue)
     return menu;
 }
 
-int returnfirstmenu(ALLEGRO_EVENT_QUEUE *event_queue,ALLEGRO_DISPLAY *display,int*positionx,int*positiony)
+int returnfirstmenu(ALLEGRO_EVENT_QUEUE *event_queue,ALLEGRO_DISPLAY *display,int*positionx,int*positiony,struct ResourcePic Pic)
 {
     ALLEGRO_EVENT ev;
     int menu=0;
-   al_peek_next_event(event_queue, &ev);
+    al_peek_next_event(event_queue, &ev);
     
     if (ev.type == ALLEGRO_EVENT_KEY_DOWN)
     {
         switch (ev.keyboard.keycode)
         {
         case ALLEGRO_KEY_LSHIFT:
-            menu = menu_first(display,event_queue);
+            menu = menu_first(display,event_queue,Pic);
             if(menu==1)
             {
                 printf("restart\n");
@@ -216,9 +217,9 @@ int returnfirstmenu(ALLEGRO_EVENT_QUEUE *event_queue,ALLEGRO_DISPLAY *display,in
 
 
 
-void endgame(ALLEGRO_DISPLAY*display,ALLEGRO_EVENT_QUEUE *event_queue) 
+void endgame(ALLEGRO_DISPLAY*display,ALLEGRO_EVENT_QUEUE *event_queue,struct ResourcePic Pic) 
 {
-    al_clear_to_color(al_map_rgb(255, 255, 255));
+    al_draw_bitmap(Pic.back,0, 0, 0);
     ALLEGRO_BITMAP* bitmap0 = NULL;
     ALLEGRO_BITMAP* bitmap1 = NULL;
     ALLEGRO_BITMAP* contiune = NULL;
@@ -286,10 +287,11 @@ void endgame(ALLEGRO_DISPLAY*display,ALLEGRO_EVENT_QUEUE *event_queue)
 
 }
 
-void displayLoadingScreen(ALLEGRO_FONT *font) {
-    al_clear_to_color(al_map_rgb(0, 0, 0));
-    al_draw_text(font, al_map_rgb(255, 255, 255), 400, 300, ALLEGRO_ALIGN_CENTER, "Loading...");//加載頁面
+void displayLoadingScreen(ALLEGRO_FONT *font , struct ResourcePic Pic) {
+    al_draw_bitmap(Pic.back,0, 0, 0);
+    al_draw_filled_rectangle(400 , 300 , 700 ,380,al_map_rgb(40, 40, 10));
+    al_draw_text(font, al_map_rgb(240, 240, 240), 410, 300, ALLEGRO_ALIGN_LEFT, "Loading...");//加載頁面
     printf("Loading screen displayed.\n");
     al_flip_display();
-    al_rest(0.2);
+    al_rest(1);
 }
