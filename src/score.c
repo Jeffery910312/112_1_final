@@ -1,7 +1,7 @@
 #include "header.h"
 
 int StageChanged(int stage[40][40]) {
-    static int previousStage[40][40] = {{0}}; // 保存上一次的 stage 数组
+    static int previousStage[40][40] = {{0}}; // 設一個previousStage來計算當前場上分數 
     int score = 0;
     for (int j = 0; j < 12; j++) {
         for (int i = 0; i < 12; i++) {
