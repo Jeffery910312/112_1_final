@@ -25,6 +25,12 @@
 },
 {
   "directory": "C:/My Program/C/112-1/gameproject_test_1225_2/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/YourProgram.dir/includes_C.rsp -g -o CMakeFiles\\YourProgram.dir\\src\\game.c.obj -c \"C:\\My Program\\C\\112-1\\gameproject_test_1225_2\\src\\game.c\"",
+  "file": "C:/My Program/C/112-1/gameproject_test_1225_2/src/game.c",
+  "output": "CMakeFiles/YourProgram.dir/src/game.c.obj"
+},
+{
+  "directory": "C:/My Program/C/112-1/gameproject_test_1225_2/build",
   "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/YourProgram.dir/includes_C.rsp -g -o CMakeFiles\\YourProgram.dir\\src\\initial_src.c.obj -c \"C:\\My Program\\C\\112-1\\gameproject_test_1225_2\\src\\initial_src.c\"",
   "file": "C:/My Program/C/112-1/gameproject_test_1225_2/src/initial_src.c",
   "output": "CMakeFiles/YourProgram.dir/src/initial_src.c.obj"
@@ -46,12 +52,6 @@
   "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/YourProgram.dir/includes_C.rsp -g -o CMakeFiles\\YourProgram.dir\\src\\moveplayer.c.obj -c \"C:\\My Program\\C\\112-1\\gameproject_test_1225_2\\src\\moveplayer.c\"",
   "file": "C:/My Program/C/112-1/gameproject_test_1225_2/src/moveplayer.c",
   "output": "CMakeFiles/YourProgram.dir/src/moveplayer.c.obj"
-},
-{
-  "directory": "C:/My Program/C/112-1/gameproject_test_1225_2/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/YourProgram.dir/includes_C.rsp -g -o CMakeFiles\\YourProgram.dir\\src\\moveplayer2.c.obj -c \"C:\\My Program\\C\\112-1\\gameproject_test_1225_2\\src\\moveplayer2.c\"",
-  "file": "C:/My Program/C/112-1/gameproject_test_1225_2/src/moveplayer2.c",
-  "output": "CMakeFiles/YourProgram.dir/src/moveplayer2.c.obj"
 },
 {
   "directory": "C:/My Program/C/112-1/gameproject_test_1225_2/build",

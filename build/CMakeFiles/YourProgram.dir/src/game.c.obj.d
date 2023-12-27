@@ -1,5 +1,5 @@
-CMakeFiles/YourProgram.dir/src/moveplayer2.c.obj: \
- C:\My\ Program\C\112-1\gameproject_test_1225_2\src\moveplayer2.c \
+CMakeFiles/YourProgram.dir/src/game.c.obj: \
+ C:\My\ Program\C\112-1\gameproject_test_1225_2\src\game.c \
  C:/MYPROG~1/C/112-1/GA2972~1/include/header.h \
  C:/msys64/ucrt64/include/stdio.h \
  C:/msys64/ucrt64/include/corecrt_stdio_config.h \

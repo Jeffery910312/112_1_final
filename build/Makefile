@@ -224,6 +224,30 @@ src/fresharray.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\YourProgram.dir\build.make CMakeFiles/YourProgram.dir/src/fresharray.c.s
 .PHONY : src/fresharray.c.s
 
+src/game.obj: src/game.c.obj
+.PHONY : src/game.obj
+
+# target to build an object file
+src/game.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\YourProgram.dir\build.make CMakeFiles/YourProgram.dir/src/game.c.obj
+.PHONY : src/game.c.obj
+
+src/game.i: src/game.c.i
+.PHONY : src/game.i
+
+# target to preprocess a source file
+src/game.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\YourProgram.dir\build.make CMakeFiles/YourProgram.dir/src/game.c.i
+.PHONY : src/game.c.i
+
+src/game.s: src/game.c.s
+.PHONY : src/game.s
+
+# target to generate assembly for a file
+src/game.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\YourProgram.dir\build.make CMakeFiles/YourProgram.dir/src/game.c.s
+.PHONY : src/game.c.s
+
 src/initial_src.obj: src/initial_src.c.obj
 .PHONY : src/initial_src.obj
 
@@ -320,30 +344,6 @@ src/moveplayer.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\YourProgram.dir\build.make CMakeFiles/YourProgram.dir/src/moveplayer.c.s
 .PHONY : src/moveplayer.c.s
 
-src/moveplayer2.obj: src/moveplayer2.c.obj
-.PHONY : src/moveplayer2.obj
-
-# target to build an object file
-src/moveplayer2.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\YourProgram.dir\build.make CMakeFiles/YourProgram.dir/src/moveplayer2.c.obj
-.PHONY : src/moveplayer2.c.obj
-
-src/moveplayer2.i: src/moveplayer2.c.i
-.PHONY : src/moveplayer2.i
-
-# target to preprocess a source file
-src/moveplayer2.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\YourProgram.dir\build.make CMakeFiles/YourProgram.dir/src/moveplayer2.c.i
-.PHONY : src/moveplayer2.c.i
-
-src/moveplayer2.s: src/moveplayer2.c.s
-.PHONY : src/moveplayer2.s
-
-# target to generate assembly for a file
-src/moveplayer2.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\YourProgram.dir\build.make CMakeFiles/YourProgram.dir/src/moveplayer2.c.s
-.PHONY : src/moveplayer2.c.s
-
 src/renew.obj: src/renew.c.obj
 .PHONY : src/renew.obj
 
@@ -437,6 +437,9 @@ help:
 	@echo ... src/fresharray.obj
 	@echo ... src/fresharray.i
 	@echo ... src/fresharray.s
+	@echo ... src/game.obj
+	@echo ... src/game.i
+	@echo ... src/game.s
 	@echo ... src/initial_src.obj
 	@echo ... src/initial_src.i
 	@echo ... src/initial_src.s
@@ -449,9 +452,6 @@ help:
 	@echo ... src/moveplayer.obj
 	@echo ... src/moveplayer.i
 	@echo ... src/moveplayer.s
-	@echo ... src/moveplayer2.obj
-	@echo ... src/moveplayer2.i
-	@echo ... src/moveplayer2.s
 	@echo ... src/renew.obj
 	@echo ... src/renew.i
 	@echo ... src/renew.s
