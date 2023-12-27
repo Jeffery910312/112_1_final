@@ -46,20 +46,24 @@ void player(ALLEGRO_DISPLAY *display,ALLEGRO_EVENT_QUEUE *event_queue,int stageN
         al_draw_bitmap(Pic.bitmap1, 290, 0, 0);
 
         al_draw_filled_rectangle(1035 , 50 , 1235 ,400,al_map_rgb(180, 135, 65));
+        al_draw_text(font2, al_map_rgb(240, 240, 240), 1045, 130, ALLEGRO_ALIGN_LEFT, "Next:");
 
         stageprint(stage,Pic.bitmapstone,Pic.redfish,Pic.yellowfish,Pic.bluefish,Pic.grass);
         al_draw_bitmap(Pic.bitmap2, positionx, positiony, 0);
         if(transbomb==0)
         {
             al_draw_bitmap(Pic.bitmap3, bullet_x, bullet_y, 0);
+            al_draw_bitmap(Pic.bitmap3, 1145, 120, 0);
         }
         else if(transbomb==1)
         {
             al_draw_bitmap(Pic.bitmap4, bullet_x, bullet_y, 0);
+            al_draw_bitmap(Pic.bitmap4, 1145, 120, 0);
         }
         else if(transbomb==2)
         {
             al_draw_bitmap(Pic.bitmap5, bullet_x, bullet_y, 0);
+            al_draw_bitmap(Pic.bitmap5, 1145, 120, 0);
         }
         al_draw_bitmap(Pic.bitmap_right,arrowR_x,arrowR_y,0);
         al_draw_bitmap(Pic.bitmap_left,arrowL_x,arrowL_y,0);
