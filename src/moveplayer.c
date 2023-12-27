@@ -94,9 +94,12 @@ int moveplayer(ALLEGRO_EVENT_QUEUE *event_queue,int * positionx,int * positiony,
 
 
         if(*bullet_x <= 290 || *bullet_x >= 940 || *bullet_y <= 0 || *bullet_y >= 650)
-        {   
-            if( bombNUM[0] != 0 || bombNUM[1] != 0 || bombNUM[2] != 0)
-            {
+        {      
+
+            if( (bombNUM[0] != 0 && *transbomb ==0)||(bombNUM[1] != 0 && *transbomb ==1)|| (bombNUM[2] != 0 && *transbomb ==2))
+            
+            {            
+
                 if (ev.type == ALLEGRO_EVENT_KEY_DOWN && ev.keyboard.keycode == ALLEGRO_KEY_TAB)
                 {
                     if (*positionx == 290 && *positiony >= 0 && *positiony <= 650)
@@ -126,8 +129,6 @@ int moveplayer(ALLEGRO_EVENT_QUEUE *event_queue,int * positionx,int * positiony,
                 }
             }
 
-            ChangeBomb(a, &transbomb ,bombNUM);
-
             if (ev.type == ALLEGRO_EVENT_KEY_DOWN && ev.keyboard.keycode == ALLEGRO_KEY_RSHIFT )
             {
                 printf("click");
@@ -137,20 +138,4 @@ int moveplayer(ALLEGRO_EVENT_QUEUE *event_queue,int * positionx,int * positiony,
             }
         }
 }
-
-void ChangeBomb(int a, int*transbomb ,int bombNUM[3]) {
-    static int hasRun = 0;  // 靜態變數作為標誌，預設值為 0
-
-    if (!hasRun && (bombNUM[0] == 0 || bombNUM[1] == 0 || bombNUM[2] == 0)) {
-        *transbomb=(a%3);
-        a=a+1 ; 
-        hasRun = 1;// 將標誌設為 1，表示程式碼已執行
-    }
-    
-    if (hasRun && !(bombNUM[0] == 0 || bombNUM[1] == 0 || bombNUM[2] == 0)) {
-        hasRun = 0;  // 重置 hasRun
-    }
-}
-        
-
 

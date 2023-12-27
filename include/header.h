@@ -89,7 +89,8 @@ void displayLoadingScreen(ALLEGRO_FONT *font , struct ResourcePic );
 void ScoreDisplay(ALLEGRO_FONT *font,int);
 void LevelDisplay(ALLEGRO_FONT *font,int);
 void BombTypeDisplay(ALLEGRO_FONT *font,int [3],struct ResourcePic);
-void ChangeBomb(int , int*transbomb ,int[3]);
+void ChangeBomb(int , int* , int [3]);
+
 
 
 //炸彈種類
