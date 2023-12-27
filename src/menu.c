@@ -188,11 +188,9 @@ int returnfirstmenu(ALLEGRO_EVENT_QUEUE *event_queue,ALLEGRO_DISPLAY *display,in
     int menu=0;
     al_peek_next_event(event_queue, &ev);
     
-    if (ev.type == ALLEGRO_EVENT_KEY_DOWN)
-    {
-        switch (ev.keyboard.keycode)
-        {
-        case ALLEGRO_KEY_LSHIFT:
+    if (ev.type == ALLEGRO_EVENT_KEY_DOWN && ev.keyboard.keycode == ALLEGRO_KEY_LSHIFT)
+    {       
+            printf("STOP\n");
             menu = menu_first(display,event_queue,Pic);
             if(menu==1)
             {
@@ -209,9 +207,9 @@ int returnfirstmenu(ALLEGRO_EVENT_QUEUE *event_queue,ALLEGRO_DISPLAY *display,in
             {
                 menu=3;
             }
-            break;
+
         }
-    }
+    
     return menu;      
 }
 

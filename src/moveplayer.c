@@ -72,10 +72,10 @@ void player(ALLEGRO_DISPLAY *display,ALLEGRO_EVENT_QUEUE *event_queue,int stageN
         al_draw_bitmap(Pic.bitmap_down,arrowD_x,arrowD_y,0);
         ScoreDisplay(font2,CurrentScore);
 
-
+        menu = returnfirstmenu(event_queue,display,&positionx,&positiony,Pic);
         DetonateBomb(event_queue, &bullet_x, &bullet_y, &bullet_dir, &transbomb,Pic.bitmapexplosion,stage);
         moveplayer(event_queue,&positionx, &positiony,&bullet_x,&bullet_y,&bullet_dir,&transbomb);
-        menu = returnfirstmenu(event_queue,display,&positionx,&positiony,Pic);
+        
         detectbarrier(barrier,&bullet_x,&bullet_y,&bullet_dir,&transbomb,Pic.bitmapexplosion,stage);
         renew_arrow(&positionx,&positiony,&arrowD_x,&arrowU_x,&arrowR_y,&arrowL_y);
         renew_bullet(&bullet_dir,&bullet_x,&bullet_y);

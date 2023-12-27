@@ -10,6 +10,8 @@ void initial_src()
     al_install_audio();
     al_init_acodec_addon();
     al_reserve_samples(9);
+    al_init_font_addon(); 
+    al_init_ttf_addon();
 }
 void initial_array(struct barrier barrier[144])
 {
