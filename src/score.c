@@ -42,7 +42,7 @@ void BombTypeDisplay(ALLEGRO_FONT *font,int bombNum[3],struct ResourcePic Pic){
     al_draw_bitmap(Pic.bitmap5, 1045, 290, 0);
     for(i = 0 ;i < 3;i++){
         snprintf(BombNumText, sizeof(BombNumText), " x %d", bombNum[i]);
-        al_draw_text(font, al_map_rgb(240, 240, 240), 1100, 170 + 60*i, ALLEGRO_ALIGN_LEFT, BombNumText);
+        al_draw_text(font, al_map_rgb(240, 240, 240), 1100, 175 + 60*i, ALLEGRO_ALIGN_LEFT, BombNumText);
     }
 
 }

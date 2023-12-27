@@ -34,7 +34,6 @@ void player(ALLEGRO_DISPLAY *display,ALLEGRO_EVENT_QUEUE *event_queue,int stageN
 
     initial_array(barrier);
     stagefile(stage,barrier,stageNumber,bombNUM);
-    printf("Bomb data: %d %d %d\n", bombNUM[0], bombNUM[1], bombNUM[2]);
 
     MaxScore = StageChanged( stage );
     int previousScore = MaxScore;
