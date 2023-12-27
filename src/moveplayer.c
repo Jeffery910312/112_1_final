@@ -4,7 +4,7 @@ int moveplayer(ALLEGRO_EVENT_QUEUE *event_queue,int * positionx,int * positiony,
 {
         ALLEGRO_EVENT ev;
         al_get_next_event(event_queue, &ev);
-        static int a=0;
+        static int a = 1;
         if (ev.type == ALLEGRO_EVENT_KEY_DOWN)
         {
             switch (ev.keyboard.keycode)
