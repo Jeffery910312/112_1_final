@@ -107,7 +107,7 @@ void cross(int *bullet_x,int *bullet_y,ALLEGRO_BITMAP *bitmapexplosion,int *bull
         if(*bullet_x - 50 >= 305){
             al_draw_bitmap(bitmapexplosion, *bullet_x-50, *bullet_y, 0);
         }
-        if(*bullet_y + 50 < 655){
+        if(*bullet_y + 50 < 615){
             al_draw_bitmap(bitmapexplosion, *bullet_x, *bullet_y+50, 0);
         }
         if(*bullet_y - 50 >= 25){
@@ -283,7 +283,7 @@ void bigcross(int *bullet_x,int *bullet_y,ALLEGRO_BITMAP *bitmapexplosion,int *b
     if(*bullet_x - 50 > 305){
         al_draw_bitmap(bitmapexplosion, *bullet_x-50, *bullet_y, 0);
     }
-    if(*bullet_y + 50 < 655){
+    if(*bullet_y + 50 < 615){
         al_draw_bitmap(bitmapexplosion, *bullet_x, *bullet_y+50, 0);
     }
     if(*bullet_y - 50 >= 25){
@@ -295,7 +295,7 @@ void bigcross(int *bullet_x,int *bullet_y,ALLEGRO_BITMAP *bitmapexplosion,int *b
     if(*bullet_x - 100 >= 305){
         al_draw_bitmap(bitmapexplosion, *bullet_x-100, *bullet_y, 0);
     }
-    if(*bullet_y + 100 < 655){
+    if(*bullet_y + 100 < 615){
         al_draw_bitmap(bitmapexplosion, *bullet_x, *bullet_y+100, 0);
     }
     if(*bullet_y - 100 >= 25){
@@ -463,16 +463,16 @@ void square(int *bullet_x,int *bullet_y,ALLEGRO_BITMAP *bitmapexplosion,int *bul
     if(*bullet_x - 50 >= 305){
         al_draw_bitmap(bitmapexplosion, *bullet_x-50, *bullet_y, 0);
     }
-    if(*bullet_y + 50 < 655){
+    if(*bullet_y + 50 < 615){
         al_draw_bitmap(bitmapexplosion, *bullet_x, *bullet_y+50, 0);
     }
     if(*bullet_y - 50 >= 25){
         al_draw_bitmap(bitmapexplosion, *bullet_x, *bullet_y-50, 0);
     }
-    if(*bullet_y + 50 < 655 && *bullet_x + 50 < 915){
+    if(*bullet_y + 50 < 615 && *bullet_x + 50 < 915){
         al_draw_bitmap(bitmapexplosion, *bullet_x+50, *bullet_y+50, 0);
     }
-    if(*bullet_y + 50 < 655 && *bullet_x - 50 >= 305){
+    if(*bullet_y + 50 < 615 && *bullet_x - 50 >= 305){
         al_draw_bitmap(bitmapexplosion, *bullet_x-50, *bullet_y+50, 0);
     }
     if(*bullet_y - 50 >= 25 && *bullet_x + 50 < 915){

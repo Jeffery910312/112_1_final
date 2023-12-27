@@ -89,8 +89,14 @@ int moveplayer(ALLEGRO_EVENT_QUEUE *event_queue,int * positionx,int * positiony,
                     *positiony += MOVEMENT_STEP;
                 }
                 break;
+            }
+        }
 
-            case ALLEGRO_KEY_TAB:
+
+        if(*bullet_x <= 290 || *bullet_x >= 940 || *bullet_y <= 0 || *bullet_y >= 650 )
+        {
+            if (ev.type == ALLEGRO_EVENT_KEY_DOWN && ev.keyboard.keycode == ALLEGRO_KEY_TAB)
+            {
                 if (*positionx == 290 && *positiony >= 0 && *positiony <= 650)
                 {
                     *bullet_x = *positionx + 50;
@@ -115,15 +121,19 @@ int moveplayer(ALLEGRO_EVENT_QUEUE *event_queue,int * positionx,int * positiony,
                     *bullet_y = *positiony - 50;
                     *bullet_dir = 3; // 子彈向上
                 }
-                break;
-            case ALLEGRO_KEY_RSHIFT:
+        }
+        if(*bullet_x <= 290 || *bullet_x >= 940 || *bullet_y <= 0 || *bullet_y >= 650) 
+        {
+            if (ev.type == ALLEGRO_EVENT_KEY_DOWN && ev.keyboard.keycode == ALLEGRO_KEY_RSHIFT)
+            {
                 printf("click");
                 *transbomb=(a%3);
                 a=a+1;
-                break;
                 
             }
         }
-        return 0;
-
+    }
 }
+        
+
+
