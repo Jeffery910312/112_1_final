@@ -32,3 +32,17 @@ void LevelDisplay(ALLEGRO_FONT *font,int level){
     snprintf(LevelText, sizeof(LevelText), "Level %d", level);
     al_draw_text(font, al_map_rgb(240, 240, 240), 1045, 355, ALLEGRO_ALIGN_LEFT, LevelText);
 }
+
+void BombTypeDisplay(ALLEGRO_FONT *font,int bombNum[3],struct ResourcePic Pic){
+
+    int i;
+    char BombNumText[10];
+    al_draw_bitmap(Pic.bitmap3, 1045, 170, 0);
+    al_draw_bitmap(Pic.bitmap4, 1045, 230, 0);
+    al_draw_bitmap(Pic.bitmap5, 1045, 290, 0);
+    for(i = 0 ;i < 3;i++){
+        snprintf(BombNumText, sizeof(BombNumText), " x %d", bombNum[i]);
+        al_draw_text(font, al_map_rgb(240, 240, 240), 1100, 170 + 60*i, ALLEGRO_ALIGN_LEFT, BombNumText);
+    }
+
+}

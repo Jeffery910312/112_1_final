@@ -30,9 +30,12 @@ void player(ALLEGRO_DISPLAY *display,ALLEGRO_EVENT_QUEUE *event_queue,int stageN
     int score = 0;
     int MaxScore = 0;
     int CurrentScore = 0;
+    int bombNUM[3];
 
     initial_array(barrier);
-    stagefile(stage,barrier,stageNumber);
+    stagefile(stage,barrier,stageNumber,bombNUM);
+    printf("Bomb data: %d %d %d\n", bombNUM[0], bombNUM[1], bombNUM[2]);
+
     MaxScore = StageChanged( stage );
     int previousScore = MaxScore;
     int menu =0;
@@ -48,6 +51,9 @@ void player(ALLEGRO_DISPLAY *display,ALLEGRO_EVENT_QUEUE *event_queue,int stageN
         al_draw_filled_rectangle(1035 , 50 , 1235 ,400,al_map_rgb(180, 135, 65));
         al_draw_text(font2, al_map_rgb(240, 240, 240), 1045, 115, ALLEGRO_ALIGN_LEFT, "Next:");
         LevelDisplay(font2,stageNumber);
+        BombTypeDisplay(font2,bombNUM,Pic);
+
+
 
         stageprint(stage,Pic.bitmapstone,Pic.redfish,Pic.yellowfish,Pic.bluefish,Pic.grass);
         al_draw_bitmap(Pic.bitmap2, positionx, positiony, 0);
@@ -59,7 +65,7 @@ void player(ALLEGRO_DISPLAY *display,ALLEGRO_EVENT_QUEUE *event_queue,int stageN
         else if(transbomb==1)
         {
             al_draw_bitmap(Pic.bitmap4, bullet_x, bullet_y, 0);
-            al_draw_bitmap(Pic.bitmap4, 1135, 110, 0);
+            al_draw_bitmap(Pic.bitmap4, 1135, 110, 0); 
         }
         else if(transbomb==2)
         {
@@ -73,10 +79,10 @@ void player(ALLEGRO_DISPLAY *display,ALLEGRO_EVENT_QUEUE *event_queue,int stageN
         ScoreDisplay(font2,CurrentScore);
 
         menu = returnfirstmenu(event_queue,display,&positionx,&positiony,Pic);
-        DetonateBomb(event_queue, &bullet_x, &bullet_y, &bullet_dir, &transbomb,Pic.bitmapexplosion,stage);
+        DetonateBomb(event_queue, &bullet_x, &bullet_y, &bullet_dir, &transbomb,Pic.bitmapexplosion,stage,bombNUM);
         moveplayer(event_queue,&positionx, &positiony,&bullet_x,&bullet_y,&bullet_dir,&transbomb);
         
-        detectbarrier(barrier,&bullet_x,&bullet_y,&bullet_dir,&transbomb,Pic.bitmapexplosion,stage);
+        detectbarrier(barrier,&bullet_x,&bullet_y,&bullet_dir,&transbomb,Pic.bitmapexplosion,stage,bombNUM);
         renew_arrow(&positionx,&positiony,&arrowD_x,&arrowU_x,&arrowR_y,&arrowL_y);
         renew_bullet(&bullet_dir,&bullet_x,&bullet_y);
         score = StageChanged( stage );

@@ -1,6 +1,6 @@
 #include "header.h"
 
-void detectbarrier(struct barrier barrier[144],int *bullet_x,int *bullet_y,int* bullet_dir,int*transbomb,ALLEGRO_BITMAP *bitmapexplosion,int stage[40][40])
+void detectbarrier(struct barrier barrier[144],int *bullet_x,int *bullet_y,int* bullet_dir,int*transbomb,ALLEGRO_BITMAP *bitmapexplosion,int stage[40][40],int bombNUM[3])
 {
     int i;
     int bullet_x1,bullet_y1;
@@ -19,14 +19,17 @@ void detectbarrier(struct barrier barrier[144],int *bullet_x,int *bullet_y,int* 
                 if(*transbomb==0)
                 {
                     cross(&bullet_x1,&bullet_y1,bitmapexplosion,bullet_dir,stage);
+                    bombNUM[0] = bombNUM[0] - 1 ;
                 }
                 else if(*transbomb==1)
                 {
                     bigcross(&bullet_x1,&bullet_y1,bitmapexplosion,bullet_dir,stage);
+                    bombNUM[1] = bombNUM[1] - 1 ;
                 }
                 else if(*transbomb==2)
                 {
                     square(&bullet_x1,&bullet_y1,bitmapexplosion,bullet_dir,stage);
+                    bombNUM[2] = bombNUM[2] - 1 ;
                 }
             }
         }
@@ -43,14 +46,17 @@ void detectbarrier(struct barrier barrier[144],int *bullet_x,int *bullet_y,int* 
              if(*transbomb==0)
                 {
                     cross(&bullet_x1,&bullet_y1,bitmapexplosion,bullet_dir,stage);
+                    bombNUM[0] = bombNUM[0] - 1 ;
                 }
                 else if(*transbomb==1)
                 {
                     bigcross(&bullet_x1,&bullet_y1,bitmapexplosion,bullet_dir,stage);
+                    bombNUM[1] = bombNUM[1] - 1 ;
                 }
                 else if(*transbomb==2)
                 {
                     square(&bullet_x1,&bullet_y1,bitmapexplosion,bullet_dir,stage);
+                    bombNUM[2] = bombNUM[2] - 1 ;
                 }
             }            
         }
@@ -67,14 +73,17 @@ void detectbarrier(struct barrier barrier[144],int *bullet_x,int *bullet_y,int* 
              if(*transbomb==0)
                 {
                     cross(&bullet_x1,&bullet_y1,bitmapexplosion,bullet_dir,stage);
+                    bombNUM[0] = bombNUM[0] - 1 ;
                 }
                 else if(*transbomb==1)
                 {
                     bigcross(&bullet_x1,&bullet_y1,bitmapexplosion,bullet_dir,stage);
+                    bombNUM[1] = bombNUM[1] - 1 ;
                 }
                 else if(*transbomb==2)
                 {
                     square(&bullet_x1,&bullet_y1,bitmapexplosion,bullet_dir,stage);
+                    bombNUM[2] = bombNUM[2] - 1 ;
                 }
             }            
         }
@@ -92,21 +101,24 @@ void detectbarrier(struct barrier barrier[144],int *bullet_x,int *bullet_y,int* 
              if(*transbomb==0)
                 {
                     cross(&bullet_x1,&bullet_y1,bitmapexplosion,bullet_dir,stage);
+                    bombNUM[0] = bombNUM[0] - 1 ;
                 }
                 else if(*transbomb==1)
                 {
                     bigcross(&bullet_x1,&bullet_y1,bitmapexplosion,bullet_dir,stage);
+                    bombNUM[1] = bombNUM[1] - 1 ;
                 }
                 else if(*transbomb==2)
                 {
                     square(&bullet_x1,&bullet_y1,bitmapexplosion,bullet_dir,stage);
+                    bombNUM[2] = bombNUM[2] - 1 ;
                 }
             }            
         }
     }
 }
 
-void DetonateBomb(ALLEGRO_EVENT_QUEUE *event_queue, int *bullet_x, int *bullet_y, int *bullet_dir, int *transbomb, ALLEGRO_BITMAP *bitmapexplosion,int stage[40][40])
+void DetonateBomb(ALLEGRO_EVENT_QUEUE *event_queue, int *bullet_x, int *bullet_y, int *bullet_dir, int *transbomb, ALLEGRO_BITMAP *bitmapexplosion,int stage[40][40],int bombNUM[3])
 {
     //ALLEGRO_KEYBOARD_STATE keyboard_state;
     ALLEGRO_EVENT ev;
@@ -128,6 +140,7 @@ void DetonateBomb(ALLEGRO_EVENT_QUEUE *event_queue, int *bullet_x, int *bullet_y
                     *bullet_x = 1500;
                     *bullet_y = 1500;
                     *bullet_dir = -1;
+                    bombNUM[0] = bombNUM[0] - 1 ;
                 }
                 else if (*transbomb == 1)
                 {
@@ -135,6 +148,7 @@ void DetonateBomb(ALLEGRO_EVENT_QUEUE *event_queue, int *bullet_x, int *bullet_y
                     *bullet_x = 1500;
                     *bullet_y = 1500;
                     *bullet_dir = -1;
+                    bombNUM[1] = bombNUM[1] - 1 ;
                 }
                 else if (*transbomb == 2)
                 {
@@ -142,6 +156,7 @@ void DetonateBomb(ALLEGRO_EVENT_QUEUE *event_queue, int *bullet_x, int *bullet_y
                     *bullet_x = 1500;
                     *bullet_y = 1500;
                     *bullet_dir = -1;
+                    bombNUM[2] = bombNUM[2] - 1 ;
                 }
                 
             

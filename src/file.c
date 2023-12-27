@@ -1,6 +1,6 @@
 #include "header.h"
 
-void stagefile(int stage[40][40],struct barrier barrier[144],int stageNumber)
+void stagefile(int stage[40][40],struct barrier barrier[144],int stageNumber,int bomb[2])
 {
     int i=0,j=0,a=0;
 
@@ -11,12 +11,18 @@ void stagefile(int stage[40][40],struct barrier barrier[144],int stageNumber)
         printf("Unable to open file for reading\n");
         
                         }
-
+    // 讀取第一部分：12x12 的數字矩陣
     for (j = 0; j < 12; j++)
         for (i = 0; i < 12; i++) 
         {
             fscanf(file2, "%d", &stage[j][i]);
         }
+    
+    char buffer[100];
+    fgets(buffer, sizeof(buffer), file2);
+
+    // 讀取第二部分：三個數字
+    fscanf(file2, "%d %d %d", &bomb[0], &bomb[1], &bomb[2]);
 
     fclose(file2);
     printf("Load Successful\n");
@@ -65,3 +71,4 @@ void stageprint(int stage[40][40],ALLEGRO_BITMAP *bitmapstone,ALLEGRO_BITMAP *re
         }
 
 }
+
