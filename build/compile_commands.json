@@ -1,73 +1,73 @@
 [
 {
   "directory": "C:/My Program/C/112-1/gameproject_test_1225_2/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/YourProgram.dir/includes_C.rsp -g -o CMakeFiles\\YourProgram.dir\\src\\bomb.c.obj -c \"C:\\My Program\\C\\112-1\\gameproject_test_1225_2\\src\\bomb.c\"",
+  "command": "C:\\msys64\\clang64\\bin\\clang.exe  @CMakeFiles/YourProgram.dir/includes_C.rsp -g -o CMakeFiles\\YourProgram.dir\\src\\bomb.c.obj -c \"C:\\My Program\\C\\112-1\\gameproject_test_1225_2\\src\\bomb.c\"",
   "file": "C:/My Program/C/112-1/gameproject_test_1225_2/src/bomb.c",
   "output": "CMakeFiles/YourProgram.dir/src/bomb.c.obj"
 },
 {
   "directory": "C:/My Program/C/112-1/gameproject_test_1225_2/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/YourProgram.dir/includes_C.rsp -g -o CMakeFiles\\YourProgram.dir\\src\\detect.c.obj -c \"C:\\My Program\\C\\112-1\\gameproject_test_1225_2\\src\\detect.c\"",
+  "command": "C:\\msys64\\clang64\\bin\\clang.exe  @CMakeFiles/YourProgram.dir/includes_C.rsp -g -o CMakeFiles\\YourProgram.dir\\src\\detect.c.obj -c \"C:\\My Program\\C\\112-1\\gameproject_test_1225_2\\src\\detect.c\"",
   "file": "C:/My Program/C/112-1/gameproject_test_1225_2/src/detect.c",
   "output": "CMakeFiles/YourProgram.dir/src/detect.c.obj"
 },
 {
   "directory": "C:/My Program/C/112-1/gameproject_test_1225_2/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/YourProgram.dir/includes_C.rsp -g -o CMakeFiles\\YourProgram.dir\\src\\file.c.obj -c \"C:\\My Program\\C\\112-1\\gameproject_test_1225_2\\src\\file.c\"",
+  "command": "C:\\msys64\\clang64\\bin\\clang.exe  @CMakeFiles/YourProgram.dir/includes_C.rsp -g -o CMakeFiles\\YourProgram.dir\\src\\file.c.obj -c \"C:\\My Program\\C\\112-1\\gameproject_test_1225_2\\src\\file.c\"",
   "file": "C:/My Program/C/112-1/gameproject_test_1225_2/src/file.c",
   "output": "CMakeFiles/YourProgram.dir/src/file.c.obj"
 },
 {
   "directory": "C:/My Program/C/112-1/gameproject_test_1225_2/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/YourProgram.dir/includes_C.rsp -g -o CMakeFiles\\YourProgram.dir\\src\\fresharray.c.obj -c \"C:\\My Program\\C\\112-1\\gameproject_test_1225_2\\src\\fresharray.c\"",
+  "command": "C:\\msys64\\clang64\\bin\\clang.exe  @CMakeFiles/YourProgram.dir/includes_C.rsp -g -o CMakeFiles\\YourProgram.dir\\src\\fresharray.c.obj -c \"C:\\My Program\\C\\112-1\\gameproject_test_1225_2\\src\\fresharray.c\"",
   "file": "C:/My Program/C/112-1/gameproject_test_1225_2/src/fresharray.c",
   "output": "CMakeFiles/YourProgram.dir/src/fresharray.c.obj"
 },
 {
   "directory": "C:/My Program/C/112-1/gameproject_test_1225_2/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/YourProgram.dir/includes_C.rsp -g -o CMakeFiles\\YourProgram.dir\\src\\game.c.obj -c \"C:\\My Program\\C\\112-1\\gameproject_test_1225_2\\src\\game.c\"",
+  "command": "C:\\msys64\\clang64\\bin\\clang.exe  @CMakeFiles/YourProgram.dir/includes_C.rsp -g -o CMakeFiles\\YourProgram.dir\\src\\game.c.obj -c \"C:\\My Program\\C\\112-1\\gameproject_test_1225_2\\src\\game.c\"",
   "file": "C:/My Program/C/112-1/gameproject_test_1225_2/src/game.c",
   "output": "CMakeFiles/YourProgram.dir/src/game.c.obj"
 },
 {
   "directory": "C:/My Program/C/112-1/gameproject_test_1225_2/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/YourProgram.dir/includes_C.rsp -g -o CMakeFiles\\YourProgram.dir\\src\\initial_src.c.obj -c \"C:\\My Program\\C\\112-1\\gameproject_test_1225_2\\src\\initial_src.c\"",
+  "command": "C:\\msys64\\clang64\\bin\\clang.exe  @CMakeFiles/YourProgram.dir/includes_C.rsp -g -o CMakeFiles\\YourProgram.dir\\src\\initial_src.c.obj -c \"C:\\My Program\\C\\112-1\\gameproject_test_1225_2\\src\\initial_src.c\"",
   "file": "C:/My Program/C/112-1/gameproject_test_1225_2/src/initial_src.c",
   "output": "CMakeFiles/YourProgram.dir/src/initial_src.c.obj"
 },
 {
   "directory": "C:/My Program/C/112-1/gameproject_test_1225_2/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/YourProgram.dir/includes_C.rsp -g -o CMakeFiles\\YourProgram.dir\\src\\main.c.obj -c \"C:\\My Program\\C\\112-1\\gameproject_test_1225_2\\src\\main.c\"",
+  "command": "C:\\msys64\\clang64\\bin\\clang.exe  @CMakeFiles/YourProgram.dir/includes_C.rsp -g -o CMakeFiles\\YourProgram.dir\\src\\main.c.obj -c \"C:\\My Program\\C\\112-1\\gameproject_test_1225_2\\src\\main.c\"",
   "file": "C:/My Program/C/112-1/gameproject_test_1225_2/src/main.c",
   "output": "CMakeFiles/YourProgram.dir/src/main.c.obj"
 },
 {
   "directory": "C:/My Program/C/112-1/gameproject_test_1225_2/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/YourProgram.dir/includes_C.rsp -g -o CMakeFiles\\YourProgram.dir\\src\\menu.c.obj -c \"C:\\My Program\\C\\112-1\\gameproject_test_1225_2\\src\\menu.c\"",
+  "command": "C:\\msys64\\clang64\\bin\\clang.exe  @CMakeFiles/YourProgram.dir/includes_C.rsp -g -o CMakeFiles\\YourProgram.dir\\src\\menu.c.obj -c \"C:\\My Program\\C\\112-1\\gameproject_test_1225_2\\src\\menu.c\"",
   "file": "C:/My Program/C/112-1/gameproject_test_1225_2/src/menu.c",
   "output": "CMakeFiles/YourProgram.dir/src/menu.c.obj"
 },
 {
   "directory": "C:/My Program/C/112-1/gameproject_test_1225_2/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/YourProgram.dir/includes_C.rsp -g -o CMakeFiles\\YourProgram.dir\\src\\moveplayer.c.obj -c \"C:\\My Program\\C\\112-1\\gameproject_test_1225_2\\src\\moveplayer.c\"",
+  "command": "C:\\msys64\\clang64\\bin\\clang.exe  @CMakeFiles/YourProgram.dir/includes_C.rsp -g -o CMakeFiles\\YourProgram.dir\\src\\moveplayer.c.obj -c \"C:\\My Program\\C\\112-1\\gameproject_test_1225_2\\src\\moveplayer.c\"",
   "file": "C:/My Program/C/112-1/gameproject_test_1225_2/src/moveplayer.c",
   "output": "CMakeFiles/YourProgram.dir/src/moveplayer.c.obj"
 },
 {
   "directory": "C:/My Program/C/112-1/gameproject_test_1225_2/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/YourProgram.dir/includes_C.rsp -g -o CMakeFiles\\YourProgram.dir\\src\\renew.c.obj -c \"C:\\My Program\\C\\112-1\\gameproject_test_1225_2\\src\\renew.c\"",
+  "command": "C:\\msys64\\clang64\\bin\\clang.exe  @CMakeFiles/YourProgram.dir/includes_C.rsp -g -o CMakeFiles\\YourProgram.dir\\src\\renew.c.obj -c \"C:\\My Program\\C\\112-1\\gameproject_test_1225_2\\src\\renew.c\"",
   "file": "C:/My Program/C/112-1/gameproject_test_1225_2/src/renew.c",
   "output": "CMakeFiles/YourProgram.dir/src/renew.c.obj"
 },
 {
   "directory": "C:/My Program/C/112-1/gameproject_test_1225_2/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/YourProgram.dir/includes_C.rsp -g -o CMakeFiles\\YourProgram.dir\\src\\resource.c.obj -c \"C:\\My Program\\C\\112-1\\gameproject_test_1225_2\\src\\resource.c\"",
+  "command": "C:\\msys64\\clang64\\bin\\clang.exe  @CMakeFiles/YourProgram.dir/includes_C.rsp -g -o CMakeFiles\\YourProgram.dir\\src\\resource.c.obj -c \"C:\\My Program\\C\\112-1\\gameproject_test_1225_2\\src\\resource.c\"",
   "file": "C:/My Program/C/112-1/gameproject_test_1225_2/src/resource.c",
   "output": "CMakeFiles/YourProgram.dir/src/resource.c.obj"
 },
 {
   "directory": "C:/My Program/C/112-1/gameproject_test_1225_2/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/YourProgram.dir/includes_C.rsp -g -o CMakeFiles\\YourProgram.dir\\src\\score.c.obj -c \"C:\\My Program\\C\\112-1\\gameproject_test_1225_2\\src\\score.c\"",
+  "command": "C:\\msys64\\clang64\\bin\\clang.exe  @CMakeFiles/YourProgram.dir/includes_C.rsp -g -o CMakeFiles\\YourProgram.dir\\src\\score.c.obj -c \"C:\\My Program\\C\\112-1\\gameproject_test_1225_2\\src\\score.c\"",
   "file": "C:/My Program/C/112-1/gameproject_test_1225_2/src/score.c",
   "output": "CMakeFiles/YourProgram.dir/src/score.c.obj"
 }

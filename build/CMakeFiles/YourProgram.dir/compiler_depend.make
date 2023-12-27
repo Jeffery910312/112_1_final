@@ -59,49 +59,48 @@ CMakeFiles/YourProgram.dir/src/bomb.c.obj: C:/My\ Program/C/112-1/gameproject_te
   C:/AllegroLib_5.2.8/include/allegro5/transformations.h \
   C:/AllegroLib_5.2.8/include/allegro5/utf8.h \
   C:/My\ Program/C/112-1/gameproject_test_1225_2/include/header.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
-  C:/msys64/ucrt64/include/_timeval.h \
-  C:/msys64/ucrt64/include/assert.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/direct.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/fcntl.h \
-  C:/msys64/ucrt64/include/inttypes.h \
-  C:/msys64/ucrt64/include/io.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/math.h \
-  C:/msys64/ucrt64/include/pthread_time.h \
-  C:/msys64/ucrt64/include/sdks/_mingw_ddk.h \
-  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/sec_api/sys/timeb_s.h \
-  C:/msys64/ucrt64/include/stdarg.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdint.h \
-  C:/msys64/ucrt64/include/stdio.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/swprintf.inl \
-  C:/msys64/ucrt64/include/sys/timeb.h \
-  C:/msys64/ucrt64/include/sys/types.h \
-  C:/msys64/ucrt64/include/time.h \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdbool.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdint.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/syslimits.h
+  C:/msys64/clang64/include/_mingw.h \
+  C:/msys64/clang64/include/_mingw_mac.h \
+  C:/msys64/clang64/include/_mingw_off_t.h \
+  C:/msys64/clang64/include/_mingw_secapi.h \
+  C:/msys64/clang64/include/_timeval.h \
+  C:/msys64/clang64/include/assert.h \
+  C:/msys64/clang64/include/corecrt.h \
+  C:/msys64/clang64/include/corecrt_stdio_config.h \
+  C:/msys64/clang64/include/corecrt_wstdlib.h \
+  C:/msys64/clang64/include/crtdefs.h \
+  C:/msys64/clang64/include/direct.h \
+  C:/msys64/clang64/include/errno.h \
+  C:/msys64/clang64/include/fcntl.h \
+  C:/msys64/clang64/include/inttypes.h \
+  C:/msys64/clang64/include/io.h \
+  C:/msys64/clang64/include/limits.h \
+  C:/msys64/clang64/include/malloc.h \
+  C:/msys64/clang64/include/math.h \
+  C:/msys64/clang64/include/pthread_time.h \
+  C:/msys64/clang64/include/sdks/_mingw_ddk.h \
+  C:/msys64/clang64/include/sec_api/stdio_s.h \
+  C:/msys64/clang64/include/sec_api/stdlib_s.h \
+  C:/msys64/clang64/include/sec_api/string_s.h \
+  C:/msys64/clang64/include/sec_api/sys/timeb_s.h \
+  C:/msys64/clang64/include/stdint.h \
+  C:/msys64/clang64/include/stdio.h \
+  C:/msys64/clang64/include/stdlib.h \
+  C:/msys64/clang64/include/string.h \
+  C:/msys64/clang64/include/swprintf.inl \
+  C:/msys64/clang64/include/sys/timeb.h \
+  C:/msys64/clang64/include/sys/types.h \
+  C:/msys64/clang64/include/time.h \
+  C:/msys64/clang64/include/vadefs.h \
+  C:/msys64/clang64/lib/clang/17/include/__stddef_max_align_t.h \
+  C:/msys64/clang64/lib/clang/17/include/inttypes.h \
+  C:/msys64/clang64/lib/clang/17/include/limits.h \
+  C:/msys64/clang64/lib/clang/17/include/mm_malloc.h \
+  C:/msys64/clang64/lib/clang/17/include/stdarg.h \
+  C:/msys64/clang64/lib/clang/17/include/stdbool.h \
+  C:/msys64/clang64/lib/clang/17/include/stddef.h \
+  C:/msys64/clang64/lib/clang/17/include/stdint.h \
+  C:/msys64/clang64/lib/clang/17/include/vadefs.h
 
 CMakeFiles/YourProgram.dir/src/detect.c.obj: C:/My\ Program/C/112-1/gameproject_test_1225_2/src/detect.c \
   C:/AllegroLib_5.2.8/include/allegro5/alcompat.h \
@@ -161,49 +160,48 @@ CMakeFiles/YourProgram.dir/src/detect.c.obj: C:/My\ Program/C/112-1/gameproject_
   C:/AllegroLib_5.2.8/include/allegro5/transformations.h \
   C:/AllegroLib_5.2.8/include/allegro5/utf8.h \
   C:/My\ Program/C/112-1/gameproject_test_1225_2/include/header.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
-  C:/msys64/ucrt64/include/_timeval.h \
-  C:/msys64/ucrt64/include/assert.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/direct.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/fcntl.h \
-  C:/msys64/ucrt64/include/inttypes.h \
-  C:/msys64/ucrt64/include/io.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/math.h \
-  C:/msys64/ucrt64/include/pthread_time.h \
-  C:/msys64/ucrt64/include/sdks/_mingw_ddk.h \
-  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/sec_api/sys/timeb_s.h \
-  C:/msys64/ucrt64/include/stdarg.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdint.h \
-  C:/msys64/ucrt64/include/stdio.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/swprintf.inl \
-  C:/msys64/ucrt64/include/sys/timeb.h \
-  C:/msys64/ucrt64/include/sys/types.h \
-  C:/msys64/ucrt64/include/time.h \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdbool.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdint.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/syslimits.h
+  C:/msys64/clang64/include/_mingw.h \
+  C:/msys64/clang64/include/_mingw_mac.h \
+  C:/msys64/clang64/include/_mingw_off_t.h \
+  C:/msys64/clang64/include/_mingw_secapi.h \
+  C:/msys64/clang64/include/_timeval.h \
+  C:/msys64/clang64/include/assert.h \
+  C:/msys64/clang64/include/corecrt.h \
+  C:/msys64/clang64/include/corecrt_stdio_config.h \
+  C:/msys64/clang64/include/corecrt_wstdlib.h \
+  C:/msys64/clang64/include/crtdefs.h \
+  C:/msys64/clang64/include/direct.h \
+  C:/msys64/clang64/include/errno.h \
+  C:/msys64/clang64/include/fcntl.h \
+  C:/msys64/clang64/include/inttypes.h \
+  C:/msys64/clang64/include/io.h \
+  C:/msys64/clang64/include/limits.h \
+  C:/msys64/clang64/include/malloc.h \
+  C:/msys64/clang64/include/math.h \
+  C:/msys64/clang64/include/pthread_time.h \
+  C:/msys64/clang64/include/sdks/_mingw_ddk.h \
+  C:/msys64/clang64/include/sec_api/stdio_s.h \
+  C:/msys64/clang64/include/sec_api/stdlib_s.h \
+  C:/msys64/clang64/include/sec_api/string_s.h \
+  C:/msys64/clang64/include/sec_api/sys/timeb_s.h \
+  C:/msys64/clang64/include/stdint.h \
+  C:/msys64/clang64/include/stdio.h \
+  C:/msys64/clang64/include/stdlib.h \
+  C:/msys64/clang64/include/string.h \
+  C:/msys64/clang64/include/swprintf.inl \
+  C:/msys64/clang64/include/sys/timeb.h \
+  C:/msys64/clang64/include/sys/types.h \
+  C:/msys64/clang64/include/time.h \
+  C:/msys64/clang64/include/vadefs.h \
+  C:/msys64/clang64/lib/clang/17/include/__stddef_max_align_t.h \
+  C:/msys64/clang64/lib/clang/17/include/inttypes.h \
+  C:/msys64/clang64/lib/clang/17/include/limits.h \
+  C:/msys64/clang64/lib/clang/17/include/mm_malloc.h \
+  C:/msys64/clang64/lib/clang/17/include/stdarg.h \
+  C:/msys64/clang64/lib/clang/17/include/stdbool.h \
+  C:/msys64/clang64/lib/clang/17/include/stddef.h \
+  C:/msys64/clang64/lib/clang/17/include/stdint.h \
+  C:/msys64/clang64/lib/clang/17/include/vadefs.h
 
 CMakeFiles/YourProgram.dir/src/file.c.obj: C:/My\ Program/C/112-1/gameproject_test_1225_2/src/file.c \
   C:/AllegroLib_5.2.8/include/allegro5/alcompat.h \
@@ -263,49 +261,48 @@ CMakeFiles/YourProgram.dir/src/file.c.obj: C:/My\ Program/C/112-1/gameproject_te
   C:/AllegroLib_5.2.8/include/allegro5/transformations.h \
   C:/AllegroLib_5.2.8/include/allegro5/utf8.h \
   C:/My\ Program/C/112-1/gameproject_test_1225_2/include/header.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
-  C:/msys64/ucrt64/include/_timeval.h \
-  C:/msys64/ucrt64/include/assert.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/direct.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/fcntl.h \
-  C:/msys64/ucrt64/include/inttypes.h \
-  C:/msys64/ucrt64/include/io.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/math.h \
-  C:/msys64/ucrt64/include/pthread_time.h \
-  C:/msys64/ucrt64/include/sdks/_mingw_ddk.h \
-  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/sec_api/sys/timeb_s.h \
-  C:/msys64/ucrt64/include/stdarg.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdint.h \
-  C:/msys64/ucrt64/include/stdio.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/swprintf.inl \
-  C:/msys64/ucrt64/include/sys/timeb.h \
-  C:/msys64/ucrt64/include/sys/types.h \
-  C:/msys64/ucrt64/include/time.h \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdbool.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdint.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/syslimits.h
+  C:/msys64/clang64/include/_mingw.h \
+  C:/msys64/clang64/include/_mingw_mac.h \
+  C:/msys64/clang64/include/_mingw_off_t.h \
+  C:/msys64/clang64/include/_mingw_secapi.h \
+  C:/msys64/clang64/include/_timeval.h \
+  C:/msys64/clang64/include/assert.h \
+  C:/msys64/clang64/include/corecrt.h \
+  C:/msys64/clang64/include/corecrt_stdio_config.h \
+  C:/msys64/clang64/include/corecrt_wstdlib.h \
+  C:/msys64/clang64/include/crtdefs.h \
+  C:/msys64/clang64/include/direct.h \
+  C:/msys64/clang64/include/errno.h \
+  C:/msys64/clang64/include/fcntl.h \
+  C:/msys64/clang64/include/inttypes.h \
+  C:/msys64/clang64/include/io.h \
+  C:/msys64/clang64/include/limits.h \
+  C:/msys64/clang64/include/malloc.h \
+  C:/msys64/clang64/include/math.h \
+  C:/msys64/clang64/include/pthread_time.h \
+  C:/msys64/clang64/include/sdks/_mingw_ddk.h \
+  C:/msys64/clang64/include/sec_api/stdio_s.h \
+  C:/msys64/clang64/include/sec_api/stdlib_s.h \
+  C:/msys64/clang64/include/sec_api/string_s.h \
+  C:/msys64/clang64/include/sec_api/sys/timeb_s.h \
+  C:/msys64/clang64/include/stdint.h \
+  C:/msys64/clang64/include/stdio.h \
+  C:/msys64/clang64/include/stdlib.h \
+  C:/msys64/clang64/include/string.h \
+  C:/msys64/clang64/include/swprintf.inl \
+  C:/msys64/clang64/include/sys/timeb.h \
+  C:/msys64/clang64/include/sys/types.h \
+  C:/msys64/clang64/include/time.h \
+  C:/msys64/clang64/include/vadefs.h \
+  C:/msys64/clang64/lib/clang/17/include/__stddef_max_align_t.h \
+  C:/msys64/clang64/lib/clang/17/include/inttypes.h \
+  C:/msys64/clang64/lib/clang/17/include/limits.h \
+  C:/msys64/clang64/lib/clang/17/include/mm_malloc.h \
+  C:/msys64/clang64/lib/clang/17/include/stdarg.h \
+  C:/msys64/clang64/lib/clang/17/include/stdbool.h \
+  C:/msys64/clang64/lib/clang/17/include/stddef.h \
+  C:/msys64/clang64/lib/clang/17/include/stdint.h \
+  C:/msys64/clang64/lib/clang/17/include/vadefs.h
 
 CMakeFiles/YourProgram.dir/src/fresharray.c.obj: C:/My\ Program/C/112-1/gameproject_test_1225_2/src/fresharray.c \
   C:/AllegroLib_5.2.8/include/allegro5/alcompat.h \
@@ -365,49 +362,48 @@ CMakeFiles/YourProgram.dir/src/fresharray.c.obj: C:/My\ Program/C/112-1/gameproj
   C:/AllegroLib_5.2.8/include/allegro5/transformations.h \
   C:/AllegroLib_5.2.8/include/allegro5/utf8.h \
   C:/My\ Program/C/112-1/gameproject_test_1225_2/include/header.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
-  C:/msys64/ucrt64/include/_timeval.h \
-  C:/msys64/ucrt64/include/assert.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/direct.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/fcntl.h \
-  C:/msys64/ucrt64/include/inttypes.h \
-  C:/msys64/ucrt64/include/io.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/math.h \
-  C:/msys64/ucrt64/include/pthread_time.h \
-  C:/msys64/ucrt64/include/sdks/_mingw_ddk.h \
-  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/sec_api/sys/timeb_s.h \
-  C:/msys64/ucrt64/include/stdarg.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdint.h \
-  C:/msys64/ucrt64/include/stdio.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/swprintf.inl \
-  C:/msys64/ucrt64/include/sys/timeb.h \
-  C:/msys64/ucrt64/include/sys/types.h \
-  C:/msys64/ucrt64/include/time.h \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdbool.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdint.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/syslimits.h
+  C:/msys64/clang64/include/_mingw.h \
+  C:/msys64/clang64/include/_mingw_mac.h \
+  C:/msys64/clang64/include/_mingw_off_t.h \
+  C:/msys64/clang64/include/_mingw_secapi.h \
+  C:/msys64/clang64/include/_timeval.h \
+  C:/msys64/clang64/include/assert.h \
+  C:/msys64/clang64/include/corecrt.h \
+  C:/msys64/clang64/include/corecrt_stdio_config.h \
+  C:/msys64/clang64/include/corecrt_wstdlib.h \
+  C:/msys64/clang64/include/crtdefs.h \
+  C:/msys64/clang64/include/direct.h \
+  C:/msys64/clang64/include/errno.h \
+  C:/msys64/clang64/include/fcntl.h \
+  C:/msys64/clang64/include/inttypes.h \
+  C:/msys64/clang64/include/io.h \
+  C:/msys64/clang64/include/limits.h \
+  C:/msys64/clang64/include/malloc.h \
+  C:/msys64/clang64/include/math.h \
+  C:/msys64/clang64/include/pthread_time.h \
+  C:/msys64/clang64/include/sdks/_mingw_ddk.h \
+  C:/msys64/clang64/include/sec_api/stdio_s.h \
+  C:/msys64/clang64/include/sec_api/stdlib_s.h \
+  C:/msys64/clang64/include/sec_api/string_s.h \
+  C:/msys64/clang64/include/sec_api/sys/timeb_s.h \
+  C:/msys64/clang64/include/stdint.h \
+  C:/msys64/clang64/include/stdio.h \
+  C:/msys64/clang64/include/stdlib.h \
+  C:/msys64/clang64/include/string.h \
+  C:/msys64/clang64/include/swprintf.inl \
+  C:/msys64/clang64/include/sys/timeb.h \
+  C:/msys64/clang64/include/sys/types.h \
+  C:/msys64/clang64/include/time.h \
+  C:/msys64/clang64/include/vadefs.h \
+  C:/msys64/clang64/lib/clang/17/include/__stddef_max_align_t.h \
+  C:/msys64/clang64/lib/clang/17/include/inttypes.h \
+  C:/msys64/clang64/lib/clang/17/include/limits.h \
+  C:/msys64/clang64/lib/clang/17/include/mm_malloc.h \
+  C:/msys64/clang64/lib/clang/17/include/stdarg.h \
+  C:/msys64/clang64/lib/clang/17/include/stdbool.h \
+  C:/msys64/clang64/lib/clang/17/include/stddef.h \
+  C:/msys64/clang64/lib/clang/17/include/stdint.h \
+  C:/msys64/clang64/lib/clang/17/include/vadefs.h
 
 CMakeFiles/YourProgram.dir/src/game.c.obj: C:/My\ Program/C/112-1/gameproject_test_1225_2/src/game.c \
   C:/AllegroLib_5.2.8/include/allegro5/alcompat.h \
@@ -467,49 +463,48 @@ CMakeFiles/YourProgram.dir/src/game.c.obj: C:/My\ Program/C/112-1/gameproject_te
   C:/AllegroLib_5.2.8/include/allegro5/transformations.h \
   C:/AllegroLib_5.2.8/include/allegro5/utf8.h \
   C:/My\ Program/C/112-1/gameproject_test_1225_2/include/header.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
-  C:/msys64/ucrt64/include/_timeval.h \
-  C:/msys64/ucrt64/include/assert.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/direct.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/fcntl.h \
-  C:/msys64/ucrt64/include/inttypes.h \
-  C:/msys64/ucrt64/include/io.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/math.h \
-  C:/msys64/ucrt64/include/pthread_time.h \
-  C:/msys64/ucrt64/include/sdks/_mingw_ddk.h \
-  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/sec_api/sys/timeb_s.h \
-  C:/msys64/ucrt64/include/stdarg.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdint.h \
-  C:/msys64/ucrt64/include/stdio.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/swprintf.inl \
-  C:/msys64/ucrt64/include/sys/timeb.h \
-  C:/msys64/ucrt64/include/sys/types.h \
-  C:/msys64/ucrt64/include/time.h \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdbool.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdint.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/syslimits.h
+  C:/msys64/clang64/include/_mingw.h \
+  C:/msys64/clang64/include/_mingw_mac.h \
+  C:/msys64/clang64/include/_mingw_off_t.h \
+  C:/msys64/clang64/include/_mingw_secapi.h \
+  C:/msys64/clang64/include/_timeval.h \
+  C:/msys64/clang64/include/assert.h \
+  C:/msys64/clang64/include/corecrt.h \
+  C:/msys64/clang64/include/corecrt_stdio_config.h \
+  C:/msys64/clang64/include/corecrt_wstdlib.h \
+  C:/msys64/clang64/include/crtdefs.h \
+  C:/msys64/clang64/include/direct.h \
+  C:/msys64/clang64/include/errno.h \
+  C:/msys64/clang64/include/fcntl.h \
+  C:/msys64/clang64/include/inttypes.h \
+  C:/msys64/clang64/include/io.h \
+  C:/msys64/clang64/include/limits.h \
+  C:/msys64/clang64/include/malloc.h \
+  C:/msys64/clang64/include/math.h \
+  C:/msys64/clang64/include/pthread_time.h \
+  C:/msys64/clang64/include/sdks/_mingw_ddk.h \
+  C:/msys64/clang64/include/sec_api/stdio_s.h \
+  C:/msys64/clang64/include/sec_api/stdlib_s.h \
+  C:/msys64/clang64/include/sec_api/string_s.h \
+  C:/msys64/clang64/include/sec_api/sys/timeb_s.h \
+  C:/msys64/clang64/include/stdint.h \
+  C:/msys64/clang64/include/stdio.h \
+  C:/msys64/clang64/include/stdlib.h \
+  C:/msys64/clang64/include/string.h \
+  C:/msys64/clang64/include/swprintf.inl \
+  C:/msys64/clang64/include/sys/timeb.h \
+  C:/msys64/clang64/include/sys/types.h \
+  C:/msys64/clang64/include/time.h \
+  C:/msys64/clang64/include/vadefs.h \
+  C:/msys64/clang64/lib/clang/17/include/__stddef_max_align_t.h \
+  C:/msys64/clang64/lib/clang/17/include/inttypes.h \
+  C:/msys64/clang64/lib/clang/17/include/limits.h \
+  C:/msys64/clang64/lib/clang/17/include/mm_malloc.h \
+  C:/msys64/clang64/lib/clang/17/include/stdarg.h \
+  C:/msys64/clang64/lib/clang/17/include/stdbool.h \
+  C:/msys64/clang64/lib/clang/17/include/stddef.h \
+  C:/msys64/clang64/lib/clang/17/include/stdint.h \
+  C:/msys64/clang64/lib/clang/17/include/vadefs.h
 
 CMakeFiles/YourProgram.dir/src/initial_src.c.obj: C:/My\ Program/C/112-1/gameproject_test_1225_2/src/initial_src.c \
   C:/AllegroLib_5.2.8/include/allegro5/alcompat.h \
@@ -569,49 +564,48 @@ CMakeFiles/YourProgram.dir/src/initial_src.c.obj: C:/My\ Program/C/112-1/gamepro
   C:/AllegroLib_5.2.8/include/allegro5/transformations.h \
   C:/AllegroLib_5.2.8/include/allegro5/utf8.h \
   C:/My\ Program/C/112-1/gameproject_test_1225_2/include/header.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
-  C:/msys64/ucrt64/include/_timeval.h \
-  C:/msys64/ucrt64/include/assert.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/direct.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/fcntl.h \
-  C:/msys64/ucrt64/include/inttypes.h \
-  C:/msys64/ucrt64/include/io.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/math.h \
-  C:/msys64/ucrt64/include/pthread_time.h \
-  C:/msys64/ucrt64/include/sdks/_mingw_ddk.h \
-  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/sec_api/sys/timeb_s.h \
-  C:/msys64/ucrt64/include/stdarg.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdint.h \
-  C:/msys64/ucrt64/include/stdio.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/swprintf.inl \
-  C:/msys64/ucrt64/include/sys/timeb.h \
-  C:/msys64/ucrt64/include/sys/types.h \
-  C:/msys64/ucrt64/include/time.h \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdbool.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdint.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/syslimits.h
+  C:/msys64/clang64/include/_mingw.h \
+  C:/msys64/clang64/include/_mingw_mac.h \
+  C:/msys64/clang64/include/_mingw_off_t.h \
+  C:/msys64/clang64/include/_mingw_secapi.h \
+  C:/msys64/clang64/include/_timeval.h \
+  C:/msys64/clang64/include/assert.h \
+  C:/msys64/clang64/include/corecrt.h \
+  C:/msys64/clang64/include/corecrt_stdio_config.h \
+  C:/msys64/clang64/include/corecrt_wstdlib.h \
+  C:/msys64/clang64/include/crtdefs.h \
+  C:/msys64/clang64/include/direct.h \
+  C:/msys64/clang64/include/errno.h \
+  C:/msys64/clang64/include/fcntl.h \
+  C:/msys64/clang64/include/inttypes.h \
+  C:/msys64/clang64/include/io.h \
+  C:/msys64/clang64/include/limits.h \
+  C:/msys64/clang64/include/malloc.h \
+  C:/msys64/clang64/include/math.h \
+  C:/msys64/clang64/include/pthread_time.h \
+  C:/msys64/clang64/include/sdks/_mingw_ddk.h \
+  C:/msys64/clang64/include/sec_api/stdio_s.h \
+  C:/msys64/clang64/include/sec_api/stdlib_s.h \
+  C:/msys64/clang64/include/sec_api/string_s.h \
+  C:/msys64/clang64/include/sec_api/sys/timeb_s.h \
+  C:/msys64/clang64/include/stdint.h \
+  C:/msys64/clang64/include/stdio.h \
+  C:/msys64/clang64/include/stdlib.h \
+  C:/msys64/clang64/include/string.h \
+  C:/msys64/clang64/include/swprintf.inl \
+  C:/msys64/clang64/include/sys/timeb.h \
+  C:/msys64/clang64/include/sys/types.h \
+  C:/msys64/clang64/include/time.h \
+  C:/msys64/clang64/include/vadefs.h \
+  C:/msys64/clang64/lib/clang/17/include/__stddef_max_align_t.h \
+  C:/msys64/clang64/lib/clang/17/include/inttypes.h \
+  C:/msys64/clang64/lib/clang/17/include/limits.h \
+  C:/msys64/clang64/lib/clang/17/include/mm_malloc.h \
+  C:/msys64/clang64/lib/clang/17/include/stdarg.h \
+  C:/msys64/clang64/lib/clang/17/include/stdbool.h \
+  C:/msys64/clang64/lib/clang/17/include/stddef.h \
+  C:/msys64/clang64/lib/clang/17/include/stdint.h \
+  C:/msys64/clang64/lib/clang/17/include/vadefs.h
 
 CMakeFiles/YourProgram.dir/src/main.c.obj: C:/My\ Program/C/112-1/gameproject_test_1225_2/src/main.c \
   C:/AllegroLib_5.2.8/include/allegro5/alcompat.h \
@@ -671,49 +665,48 @@ CMakeFiles/YourProgram.dir/src/main.c.obj: C:/My\ Program/C/112-1/gameproject_te
   C:/AllegroLib_5.2.8/include/allegro5/transformations.h \
   C:/AllegroLib_5.2.8/include/allegro5/utf8.h \
   C:/My\ Program/C/112-1/gameproject_test_1225_2/include/header.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
-  C:/msys64/ucrt64/include/_timeval.h \
-  C:/msys64/ucrt64/include/assert.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/direct.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/fcntl.h \
-  C:/msys64/ucrt64/include/inttypes.h \
-  C:/msys64/ucrt64/include/io.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/math.h \
-  C:/msys64/ucrt64/include/pthread_time.h \
-  C:/msys64/ucrt64/include/sdks/_mingw_ddk.h \
-  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/sec_api/sys/timeb_s.h \
-  C:/msys64/ucrt64/include/stdarg.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdint.h \
-  C:/msys64/ucrt64/include/stdio.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/swprintf.inl \
-  C:/msys64/ucrt64/include/sys/timeb.h \
-  C:/msys64/ucrt64/include/sys/types.h \
-  C:/msys64/ucrt64/include/time.h \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdbool.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdint.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/syslimits.h
+  C:/msys64/clang64/include/_mingw.h \
+  C:/msys64/clang64/include/_mingw_mac.h \
+  C:/msys64/clang64/include/_mingw_off_t.h \
+  C:/msys64/clang64/include/_mingw_secapi.h \
+  C:/msys64/clang64/include/_timeval.h \
+  C:/msys64/clang64/include/assert.h \
+  C:/msys64/clang64/include/corecrt.h \
+  C:/msys64/clang64/include/corecrt_stdio_config.h \
+  C:/msys64/clang64/include/corecrt_wstdlib.h \
+  C:/msys64/clang64/include/crtdefs.h \
+  C:/msys64/clang64/include/direct.h \
+  C:/msys64/clang64/include/errno.h \
+  C:/msys64/clang64/include/fcntl.h \
+  C:/msys64/clang64/include/inttypes.h \
+  C:/msys64/clang64/include/io.h \
+  C:/msys64/clang64/include/limits.h \
+  C:/msys64/clang64/include/malloc.h \
+  C:/msys64/clang64/include/math.h \
+  C:/msys64/clang64/include/pthread_time.h \
+  C:/msys64/clang64/include/sdks/_mingw_ddk.h \
+  C:/msys64/clang64/include/sec_api/stdio_s.h \
+  C:/msys64/clang64/include/sec_api/stdlib_s.h \
+  C:/msys64/clang64/include/sec_api/string_s.h \
+  C:/msys64/clang64/include/sec_api/sys/timeb_s.h \
+  C:/msys64/clang64/include/stdint.h \
+  C:/msys64/clang64/include/stdio.h \
+  C:/msys64/clang64/include/stdlib.h \
+  C:/msys64/clang64/include/string.h \
+  C:/msys64/clang64/include/swprintf.inl \
+  C:/msys64/clang64/include/sys/timeb.h \
+  C:/msys64/clang64/include/sys/types.h \
+  C:/msys64/clang64/include/time.h \
+  C:/msys64/clang64/include/vadefs.h \
+  C:/msys64/clang64/lib/clang/17/include/__stddef_max_align_t.h \
+  C:/msys64/clang64/lib/clang/17/include/inttypes.h \
+  C:/msys64/clang64/lib/clang/17/include/limits.h \
+  C:/msys64/clang64/lib/clang/17/include/mm_malloc.h \
+  C:/msys64/clang64/lib/clang/17/include/stdarg.h \
+  C:/msys64/clang64/lib/clang/17/include/stdbool.h \
+  C:/msys64/clang64/lib/clang/17/include/stddef.h \
+  C:/msys64/clang64/lib/clang/17/include/stdint.h \
+  C:/msys64/clang64/lib/clang/17/include/vadefs.h
 
 CMakeFiles/YourProgram.dir/src/menu.c.obj: C:/My\ Program/C/112-1/gameproject_test_1225_2/src/menu.c \
   C:/AllegroLib_5.2.8/include/allegro5/alcompat.h \
@@ -773,49 +766,48 @@ CMakeFiles/YourProgram.dir/src/menu.c.obj: C:/My\ Program/C/112-1/gameproject_te
   C:/AllegroLib_5.2.8/include/allegro5/transformations.h \
   C:/AllegroLib_5.2.8/include/allegro5/utf8.h \
   C:/My\ Program/C/112-1/gameproject_test_1225_2/include/header.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
-  C:/msys64/ucrt64/include/_timeval.h \
-  C:/msys64/ucrt64/include/assert.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/direct.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/fcntl.h \
-  C:/msys64/ucrt64/include/inttypes.h \
-  C:/msys64/ucrt64/include/io.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/math.h \
-  C:/msys64/ucrt64/include/pthread_time.h \
-  C:/msys64/ucrt64/include/sdks/_mingw_ddk.h \
-  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/sec_api/sys/timeb_s.h \
-  C:/msys64/ucrt64/include/stdarg.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdint.h \
-  C:/msys64/ucrt64/include/stdio.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/swprintf.inl \
-  C:/msys64/ucrt64/include/sys/timeb.h \
-  C:/msys64/ucrt64/include/sys/types.h \
-  C:/msys64/ucrt64/include/time.h \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdbool.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdint.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/syslimits.h
+  C:/msys64/clang64/include/_mingw.h \
+  C:/msys64/clang64/include/_mingw_mac.h \
+  C:/msys64/clang64/include/_mingw_off_t.h \
+  C:/msys64/clang64/include/_mingw_secapi.h \
+  C:/msys64/clang64/include/_timeval.h \
+  C:/msys64/clang64/include/assert.h \
+  C:/msys64/clang64/include/corecrt.h \
+  C:/msys64/clang64/include/corecrt_stdio_config.h \
+  C:/msys64/clang64/include/corecrt_wstdlib.h \
+  C:/msys64/clang64/include/crtdefs.h \
+  C:/msys64/clang64/include/direct.h \
+  C:/msys64/clang64/include/errno.h \
+  C:/msys64/clang64/include/fcntl.h \
+  C:/msys64/clang64/include/inttypes.h \
+  C:/msys64/clang64/include/io.h \
+  C:/msys64/clang64/include/limits.h \
+  C:/msys64/clang64/include/malloc.h \
+  C:/msys64/clang64/include/math.h \
+  C:/msys64/clang64/include/pthread_time.h \
+  C:/msys64/clang64/include/sdks/_mingw_ddk.h \
+  C:/msys64/clang64/include/sec_api/stdio_s.h \
+  C:/msys64/clang64/include/sec_api/stdlib_s.h \
+  C:/msys64/clang64/include/sec_api/string_s.h \
+  C:/msys64/clang64/include/sec_api/sys/timeb_s.h \
+  C:/msys64/clang64/include/stdint.h \
+  C:/msys64/clang64/include/stdio.h \
+  C:/msys64/clang64/include/stdlib.h \
+  C:/msys64/clang64/include/string.h \
+  C:/msys64/clang64/include/swprintf.inl \
+  C:/msys64/clang64/include/sys/timeb.h \
+  C:/msys64/clang64/include/sys/types.h \
+  C:/msys64/clang64/include/time.h \
+  C:/msys64/clang64/include/vadefs.h \
+  C:/msys64/clang64/lib/clang/17/include/__stddef_max_align_t.h \
+  C:/msys64/clang64/lib/clang/17/include/inttypes.h \
+  C:/msys64/clang64/lib/clang/17/include/limits.h \
+  C:/msys64/clang64/lib/clang/17/include/mm_malloc.h \
+  C:/msys64/clang64/lib/clang/17/include/stdarg.h \
+  C:/msys64/clang64/lib/clang/17/include/stdbool.h \
+  C:/msys64/clang64/lib/clang/17/include/stddef.h \
+  C:/msys64/clang64/lib/clang/17/include/stdint.h \
+  C:/msys64/clang64/lib/clang/17/include/vadefs.h
 
 CMakeFiles/YourProgram.dir/src/moveplayer.c.obj: C:/My\ Program/C/112-1/gameproject_test_1225_2/src/moveplayer.c \
   C:/AllegroLib_5.2.8/include/allegro5/alcompat.h \
@@ -875,49 +867,48 @@ CMakeFiles/YourProgram.dir/src/moveplayer.c.obj: C:/My\ Program/C/112-1/gameproj
   C:/AllegroLib_5.2.8/include/allegro5/transformations.h \
   C:/AllegroLib_5.2.8/include/allegro5/utf8.h \
   C:/My\ Program/C/112-1/gameproject_test_1225_2/include/header.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
-  C:/msys64/ucrt64/include/_timeval.h \
-  C:/msys64/ucrt64/include/assert.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/direct.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/fcntl.h \
-  C:/msys64/ucrt64/include/inttypes.h \
-  C:/msys64/ucrt64/include/io.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/math.h \
-  C:/msys64/ucrt64/include/pthread_time.h \
-  C:/msys64/ucrt64/include/sdks/_mingw_ddk.h \
-  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/sec_api/sys/timeb_s.h \
-  C:/msys64/ucrt64/include/stdarg.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdint.h \
-  C:/msys64/ucrt64/include/stdio.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/swprintf.inl \
-  C:/msys64/ucrt64/include/sys/timeb.h \
-  C:/msys64/ucrt64/include/sys/types.h \
-  C:/msys64/ucrt64/include/time.h \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdbool.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdint.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/syslimits.h
+  C:/msys64/clang64/include/_mingw.h \
+  C:/msys64/clang64/include/_mingw_mac.h \
+  C:/msys64/clang64/include/_mingw_off_t.h \
+  C:/msys64/clang64/include/_mingw_secapi.h \
+  C:/msys64/clang64/include/_timeval.h \
+  C:/msys64/clang64/include/assert.h \
+  C:/msys64/clang64/include/corecrt.h \
+  C:/msys64/clang64/include/corecrt_stdio_config.h \
+  C:/msys64/clang64/include/corecrt_wstdlib.h \
+  C:/msys64/clang64/include/crtdefs.h \
+  C:/msys64/clang64/include/direct.h \
+  C:/msys64/clang64/include/errno.h \
+  C:/msys64/clang64/include/fcntl.h \
+  C:/msys64/clang64/include/inttypes.h \
+  C:/msys64/clang64/include/io.h \
+  C:/msys64/clang64/include/limits.h \
+  C:/msys64/clang64/include/malloc.h \
+  C:/msys64/clang64/include/math.h \
+  C:/msys64/clang64/include/pthread_time.h \
+  C:/msys64/clang64/include/sdks/_mingw_ddk.h \
+  C:/msys64/clang64/include/sec_api/stdio_s.h \
+  C:/msys64/clang64/include/sec_api/stdlib_s.h \
+  C:/msys64/clang64/include/sec_api/string_s.h \
+  C:/msys64/clang64/include/sec_api/sys/timeb_s.h \
+  C:/msys64/clang64/include/stdint.h \
+  C:/msys64/clang64/include/stdio.h \
+  C:/msys64/clang64/include/stdlib.h \
+  C:/msys64/clang64/include/string.h \
+  C:/msys64/clang64/include/swprintf.inl \
+  C:/msys64/clang64/include/sys/timeb.h \
+  C:/msys64/clang64/include/sys/types.h \
+  C:/msys64/clang64/include/time.h \
+  C:/msys64/clang64/include/vadefs.h \
+  C:/msys64/clang64/lib/clang/17/include/__stddef_max_align_t.h \
+  C:/msys64/clang64/lib/clang/17/include/inttypes.h \
+  C:/msys64/clang64/lib/clang/17/include/limits.h \
+  C:/msys64/clang64/lib/clang/17/include/mm_malloc.h \
+  C:/msys64/clang64/lib/clang/17/include/stdarg.h \
+  C:/msys64/clang64/lib/clang/17/include/stdbool.h \
+  C:/msys64/clang64/lib/clang/17/include/stddef.h \
+  C:/msys64/clang64/lib/clang/17/include/stdint.h \
+  C:/msys64/clang64/lib/clang/17/include/vadefs.h
 
 CMakeFiles/YourProgram.dir/src/renew.c.obj: C:/My\ Program/C/112-1/gameproject_test_1225_2/src/renew.c \
   C:/AllegroLib_5.2.8/include/allegro5/alcompat.h \
@@ -977,49 +968,48 @@ CMakeFiles/YourProgram.dir/src/renew.c.obj: C:/My\ Program/C/112-1/gameproject_t
   C:/AllegroLib_5.2.8/include/allegro5/transformations.h \
   C:/AllegroLib_5.2.8/include/allegro5/utf8.h \
   C:/My\ Program/C/112-1/gameproject_test_1225_2/include/header.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
-  C:/msys64/ucrt64/include/_timeval.h \
-  C:/msys64/ucrt64/include/assert.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/direct.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/fcntl.h \
-  C:/msys64/ucrt64/include/inttypes.h \
-  C:/msys64/ucrt64/include/io.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/math.h \
-  C:/msys64/ucrt64/include/pthread_time.h \
-  C:/msys64/ucrt64/include/sdks/_mingw_ddk.h \
-  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/sec_api/sys/timeb_s.h \
-  C:/msys64/ucrt64/include/stdarg.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdint.h \
-  C:/msys64/ucrt64/include/stdio.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/swprintf.inl \
-  C:/msys64/ucrt64/include/sys/timeb.h \
-  C:/msys64/ucrt64/include/sys/types.h \
-  C:/msys64/ucrt64/include/time.h \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdbool.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdint.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/syslimits.h
+  C:/msys64/clang64/include/_mingw.h \
+  C:/msys64/clang64/include/_mingw_mac.h \
+  C:/msys64/clang64/include/_mingw_off_t.h \
+  C:/msys64/clang64/include/_mingw_secapi.h \
+  C:/msys64/clang64/include/_timeval.h \
+  C:/msys64/clang64/include/assert.h \
+  C:/msys64/clang64/include/corecrt.h \
+  C:/msys64/clang64/include/corecrt_stdio_config.h \
+  C:/msys64/clang64/include/corecrt_wstdlib.h \
+  C:/msys64/clang64/include/crtdefs.h \
+  C:/msys64/clang64/include/direct.h \
+  C:/msys64/clang64/include/errno.h \
+  C:/msys64/clang64/include/fcntl.h \
+  C:/msys64/clang64/include/inttypes.h \
+  C:/msys64/clang64/include/io.h \
+  C:/msys64/clang64/include/limits.h \
+  C:/msys64/clang64/include/malloc.h \
+  C:/msys64/clang64/include/math.h \
+  C:/msys64/clang64/include/pthread_time.h \
+  C:/msys64/clang64/include/sdks/_mingw_ddk.h \
+  C:/msys64/clang64/include/sec_api/stdio_s.h \
+  C:/msys64/clang64/include/sec_api/stdlib_s.h \
+  C:/msys64/clang64/include/sec_api/string_s.h \
+  C:/msys64/clang64/include/sec_api/sys/timeb_s.h \
+  C:/msys64/clang64/include/stdint.h \
+  C:/msys64/clang64/include/stdio.h \
+  C:/msys64/clang64/include/stdlib.h \
+  C:/msys64/clang64/include/string.h \
+  C:/msys64/clang64/include/swprintf.inl \
+  C:/msys64/clang64/include/sys/timeb.h \
+  C:/msys64/clang64/include/sys/types.h \
+  C:/msys64/clang64/include/time.h \
+  C:/msys64/clang64/include/vadefs.h \
+  C:/msys64/clang64/lib/clang/17/include/__stddef_max_align_t.h \
+  C:/msys64/clang64/lib/clang/17/include/inttypes.h \
+  C:/msys64/clang64/lib/clang/17/include/limits.h \
+  C:/msys64/clang64/lib/clang/17/include/mm_malloc.h \
+  C:/msys64/clang64/lib/clang/17/include/stdarg.h \
+  C:/msys64/clang64/lib/clang/17/include/stdbool.h \
+  C:/msys64/clang64/lib/clang/17/include/stddef.h \
+  C:/msys64/clang64/lib/clang/17/include/stdint.h \
+  C:/msys64/clang64/lib/clang/17/include/vadefs.h
 
 CMakeFiles/YourProgram.dir/src/resource.c.obj: C:/My\ Program/C/112-1/gameproject_test_1225_2/src/resource.c \
   C:/AllegroLib_5.2.8/include/allegro5/alcompat.h \
@@ -1079,49 +1069,48 @@ CMakeFiles/YourProgram.dir/src/resource.c.obj: C:/My\ Program/C/112-1/gameprojec
   C:/AllegroLib_5.2.8/include/allegro5/transformations.h \
   C:/AllegroLib_5.2.8/include/allegro5/utf8.h \
   C:/My\ Program/C/112-1/gameproject_test_1225_2/include/header.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
-  C:/msys64/ucrt64/include/_timeval.h \
-  C:/msys64/ucrt64/include/assert.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/direct.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/fcntl.h \
-  C:/msys64/ucrt64/include/inttypes.h \
-  C:/msys64/ucrt64/include/io.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/math.h \
-  C:/msys64/ucrt64/include/pthread_time.h \
-  C:/msys64/ucrt64/include/sdks/_mingw_ddk.h \
-  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/sec_api/sys/timeb_s.h \
-  C:/msys64/ucrt64/include/stdarg.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdint.h \
-  C:/msys64/ucrt64/include/stdio.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/swprintf.inl \
-  C:/msys64/ucrt64/include/sys/timeb.h \
-  C:/msys64/ucrt64/include/sys/types.h \
-  C:/msys64/ucrt64/include/time.h \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdbool.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdint.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/syslimits.h
+  C:/msys64/clang64/include/_mingw.h \
+  C:/msys64/clang64/include/_mingw_mac.h \
+  C:/msys64/clang64/include/_mingw_off_t.h \
+  C:/msys64/clang64/include/_mingw_secapi.h \
+  C:/msys64/clang64/include/_timeval.h \
+  C:/msys64/clang64/include/assert.h \
+  C:/msys64/clang64/include/corecrt.h \
+  C:/msys64/clang64/include/corecrt_stdio_config.h \
+  C:/msys64/clang64/include/corecrt_wstdlib.h \
+  C:/msys64/clang64/include/crtdefs.h \
+  C:/msys64/clang64/include/direct.h \
+  C:/msys64/clang64/include/errno.h \
+  C:/msys64/clang64/include/fcntl.h \
+  C:/msys64/clang64/include/inttypes.h \
+  C:/msys64/clang64/include/io.h \
+  C:/msys64/clang64/include/limits.h \
+  C:/msys64/clang64/include/malloc.h \
+  C:/msys64/clang64/include/math.h \
+  C:/msys64/clang64/include/pthread_time.h \
+  C:/msys64/clang64/include/sdks/_mingw_ddk.h \
+  C:/msys64/clang64/include/sec_api/stdio_s.h \
+  C:/msys64/clang64/include/sec_api/stdlib_s.h \
+  C:/msys64/clang64/include/sec_api/string_s.h \
+  C:/msys64/clang64/include/sec_api/sys/timeb_s.h \
+  C:/msys64/clang64/include/stdint.h \
+  C:/msys64/clang64/include/stdio.h \
+  C:/msys64/clang64/include/stdlib.h \
+  C:/msys64/clang64/include/string.h \
+  C:/msys64/clang64/include/swprintf.inl \
+  C:/msys64/clang64/include/sys/timeb.h \
+  C:/msys64/clang64/include/sys/types.h \
+  C:/msys64/clang64/include/time.h \
+  C:/msys64/clang64/include/vadefs.h \
+  C:/msys64/clang64/lib/clang/17/include/__stddef_max_align_t.h \
+  C:/msys64/clang64/lib/clang/17/include/inttypes.h \
+  C:/msys64/clang64/lib/clang/17/include/limits.h \
+  C:/msys64/clang64/lib/clang/17/include/mm_malloc.h \
+  C:/msys64/clang64/lib/clang/17/include/stdarg.h \
+  C:/msys64/clang64/lib/clang/17/include/stdbool.h \
+  C:/msys64/clang64/lib/clang/17/include/stddef.h \
+  C:/msys64/clang64/lib/clang/17/include/stdint.h \
+  C:/msys64/clang64/lib/clang/17/include/vadefs.h
 
 CMakeFiles/YourProgram.dir/src/score.c.obj: C:/My\ Program/C/112-1/gameproject_test_1225_2/src/score.c \
   C:/AllegroLib_5.2.8/include/allegro5/alcompat.h \
@@ -1181,49 +1170,48 @@ CMakeFiles/YourProgram.dir/src/score.c.obj: C:/My\ Program/C/112-1/gameproject_t
   C:/AllegroLib_5.2.8/include/allegro5/transformations.h \
   C:/AllegroLib_5.2.8/include/allegro5/utf8.h \
   C:/My\ Program/C/112-1/gameproject_test_1225_2/include/header.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
-  C:/msys64/ucrt64/include/_timeval.h \
-  C:/msys64/ucrt64/include/assert.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/direct.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/fcntl.h \
-  C:/msys64/ucrt64/include/inttypes.h \
-  C:/msys64/ucrt64/include/io.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/math.h \
-  C:/msys64/ucrt64/include/pthread_time.h \
-  C:/msys64/ucrt64/include/sdks/_mingw_ddk.h \
-  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/sec_api/sys/timeb_s.h \
-  C:/msys64/ucrt64/include/stdarg.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdint.h \
-  C:/msys64/ucrt64/include/stdio.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/swprintf.inl \
-  C:/msys64/ucrt64/include/sys/timeb.h \
-  C:/msys64/ucrt64/include/sys/types.h \
-  C:/msys64/ucrt64/include/time.h \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdbool.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdint.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/syslimits.h
+  C:/msys64/clang64/include/_mingw.h \
+  C:/msys64/clang64/include/_mingw_mac.h \
+  C:/msys64/clang64/include/_mingw_off_t.h \
+  C:/msys64/clang64/include/_mingw_secapi.h \
+  C:/msys64/clang64/include/_timeval.h \
+  C:/msys64/clang64/include/assert.h \
+  C:/msys64/clang64/include/corecrt.h \
+  C:/msys64/clang64/include/corecrt_stdio_config.h \
+  C:/msys64/clang64/include/corecrt_wstdlib.h \
+  C:/msys64/clang64/include/crtdefs.h \
+  C:/msys64/clang64/include/direct.h \
+  C:/msys64/clang64/include/errno.h \
+  C:/msys64/clang64/include/fcntl.h \
+  C:/msys64/clang64/include/inttypes.h \
+  C:/msys64/clang64/include/io.h \
+  C:/msys64/clang64/include/limits.h \
+  C:/msys64/clang64/include/malloc.h \
+  C:/msys64/clang64/include/math.h \
+  C:/msys64/clang64/include/pthread_time.h \
+  C:/msys64/clang64/include/sdks/_mingw_ddk.h \
+  C:/msys64/clang64/include/sec_api/stdio_s.h \
+  C:/msys64/clang64/include/sec_api/stdlib_s.h \
+  C:/msys64/clang64/include/sec_api/string_s.h \
+  C:/msys64/clang64/include/sec_api/sys/timeb_s.h \
+  C:/msys64/clang64/include/stdint.h \
+  C:/msys64/clang64/include/stdio.h \
+  C:/msys64/clang64/include/stdlib.h \
+  C:/msys64/clang64/include/string.h \
+  C:/msys64/clang64/include/swprintf.inl \
+  C:/msys64/clang64/include/sys/timeb.h \
+  C:/msys64/clang64/include/sys/types.h \
+  C:/msys64/clang64/include/time.h \
+  C:/msys64/clang64/include/vadefs.h \
+  C:/msys64/clang64/lib/clang/17/include/__stddef_max_align_t.h \
+  C:/msys64/clang64/lib/clang/17/include/inttypes.h \
+  C:/msys64/clang64/lib/clang/17/include/limits.h \
+  C:/msys64/clang64/lib/clang/17/include/mm_malloc.h \
+  C:/msys64/clang64/lib/clang/17/include/stdarg.h \
+  C:/msys64/clang64/lib/clang/17/include/stdbool.h \
+  C:/msys64/clang64/lib/clang/17/include/stddef.h \
+  C:/msys64/clang64/lib/clang/17/include/stdint.h \
+  C:/msys64/clang64/lib/clang/17/include/vadefs.h
 
 
 C:/AllegroLib_5.2.8/include/allegro5/drawing.h:
@@ -1240,27 +1228,23 @@ C:/AllegroLib_5.2.8/include/allegro5/allegro5.h:
 
 C:/AllegroLib_5.2.8/include/allegro5/alcompat.h:
 
-C:/msys64/ucrt64/include/_mingw_off_t.h:
-
-C:/msys64/ucrt64/include/stddef.h:
-
 C:/AllegroLib_5.2.8/include/allegro5/allegro_font.h:
+
+C:/msys64/clang64/include/_mingw.h:
 
 C:/AllegroLib_5.2.8/include/allegro5/allegro.h:
 
 C:/AllegroLib_5.2.8/include/allegro5/blender.h:
 
-C:/msys64/ucrt64/include/_mingw_mac.h:
-
 C:/AllegroLib_5.2.8/include/allegro5/allegro_ttf.h:
 
 C:/AllegroLib_5.2.8/include/allegro5/allegro_audio.h:
 
-C:/msys64/ucrt64/include/corecrt.h:
-
 C:/AllegroLib_5.2.8/include/allegro5/fixed.h:
 
 C:/AllegroLib_5.2.8/include/allegro5/allegro_image.h:
+
+C:/msys64/clang64/include/assert.h:
 
 C:/AllegroLib_5.2.8/include/allegro5/allegro_native_dialog.h:
 
@@ -1278,11 +1262,17 @@ C:/AllegroLib_5.2.8/include/allegro5/base.h:
 
 C:/AllegroLib_5.2.8/include/allegro5/bitmap.h:
 
+C:/msys64/clang64/include/_timeval.h:
+
+C:/msys64/clang64/include/_mingw_secapi.h:
+
 C:/AllegroLib_5.2.8/include/allegro5/render_state.h:
 
 C:/AllegroLib_5.2.8/include/allegro5/bitmap_draw.h:
 
 C:/AllegroLib_5.2.8/include/allegro5/file.h:
+
+C:/msys64/clang64/lib/clang/17/include/__stddef_max_align_t.h:
 
 C:/AllegroLib_5.2.8/include/allegro5/bitmap_io.h:
 
@@ -1308,29 +1298,25 @@ C:/AllegroLib_5.2.8/include/allegro5/fullscreen_mode.h:
 
 C:/AllegroLib_5.2.8/include/allegro5/events.h:
 
-C:/msys64/ucrt64/include/time.h:
-
 C:/AllegroLib_5.2.8/include/allegro5/fmaths.h:
 
+C:/msys64/clang64/include/vadefs.h:
+
 C:/AllegroLib_5.2.8/include/allegro5/fshook.h:
+
+C:/msys64/clang64/include/corecrt_wstdlib.h:
 
 C:/AllegroLib_5.2.8/include/allegro5/haptic.h:
 
 C:/AllegroLib_5.2.8/include/allegro5/platform/alplatf.h:
 
-C:/msys64/ucrt64/include/stdint.h:
-
 C:/AllegroLib_5.2.8/include/allegro5/inline/fmaths.inl:
-
-C:/msys64/ucrt64/include/_mingw_secapi.h:
 
 C:/AllegroLib_5.2.8/include/allegro5/platform/alwin.h:
 
 C:/AllegroLib_5.2.8/include/allegro5/internal/alconfig.h:
 
 C:/AllegroLib_5.2.8/include/allegro5/platform/almngw32.h:
-
-C:/msys64/ucrt64/include/sdks/_mingw_ddk.h:
 
 C:/AllegroLib_5.2.8/include/allegro5/keyboard.h:
 
@@ -1342,13 +1328,9 @@ C:/AllegroLib_5.2.8/include/allegro5/monitor.h:
 
 C:/AllegroLib_5.2.8/include/allegro5/mouse_cursor.h:
 
-C:/msys64/ucrt64/include/fcntl.h:
-
 C:/AllegroLib_5.2.8/include/allegro5/path.h:
 
 C:/AllegroLib_5.2.8/include/allegro5/platform/astdbool.h:
-
-C:/msys64/ucrt64/include/_mingw.h:
 
 C:/AllegroLib_5.2.8/include/allegro5/platform/astdint.h:
 
@@ -1358,81 +1340,85 @@ C:/AllegroLib_5.2.8/include/allegro5/threads.h:
 
 C:/AllegroLib_5.2.8/include/allegro5/timer.h:
 
+C:/msys64/clang64/include/sec_api/stdio_s.h:
+
 C:/AllegroLib_5.2.8/include/allegro5/tls.h:
 
 C:/My\ Program/C/112-1/gameproject_test_1225_2/include/header.h:
 
-C:/msys64/ucrt64/include/_mingw_stdarg.h:
+C:/msys64/clang64/include/_mingw_mac.h:
 
-C:/My\ Program/C/112-1/gameproject_test_1225_2/src/fresharray.c:
+C:/msys64/clang64/include/_mingw_off_t.h:
 
-C:/msys64/ucrt64/include/_timeval.h:
+C:/msys64/clang64/include/corecrt.h:
 
-C:/msys64/ucrt64/include/assert.h:
+C:/msys64/clang64/include/corecrt_stdio_config.h:
 
-C:/msys64/ucrt64/include/corecrt_stdio_config.h:
+C:/msys64/clang64/include/crtdefs.h:
 
-C:/msys64/ucrt64/include/stdlib.h:
+C:/msys64/clang64/include/direct.h:
 
-C:/msys64/ucrt64/include/corecrt_wstdlib.h:
+C:/msys64/clang64/include/errno.h:
 
-C:/msys64/ucrt64/include/crtdefs.h:
+C:/msys64/clang64/include/fcntl.h:
 
-C:/msys64/ucrt64/include/direct.h:
+C:/msys64/clang64/include/inttypes.h:
 
-C:/msys64/ucrt64/include/errno.h:
+C:/msys64/clang64/include/io.h:
 
-C:/msys64/ucrt64/include/inttypes.h:
+C:/msys64/clang64/include/limits.h:
 
-C:/msys64/ucrt64/include/io.h:
+C:/msys64/clang64/include/malloc.h:
 
-C:/msys64/ucrt64/include/limits.h:
+C:/msys64/clang64/include/math.h:
 
-C:/msys64/ucrt64/include/malloc.h:
+C:/msys64/clang64/include/pthread_time.h:
 
-C:/msys64/ucrt64/include/math.h:
+C:/msys64/clang64/include/sdks/_mingw_ddk.h:
 
-C:/msys64/ucrt64/include/pthread_time.h:
+C:/msys64/clang64/include/sys/types.h:
 
-C:/msys64/ucrt64/include/sec_api/stdio_s.h:
+C:/msys64/clang64/include/sec_api/stdlib_s.h:
 
-C:/msys64/ucrt64/include/sec_api/stdlib_s.h:
+C:/msys64/clang64/include/sec_api/string_s.h:
 
-C:/msys64/ucrt64/include/sec_api/string_s.h:
+C:/msys64/clang64/include/sec_api/sys/timeb_s.h:
 
-C:/msys64/ucrt64/include/sec_api/sys/timeb_s.h:
+C:/msys64/clang64/include/stdint.h:
 
-C:/msys64/ucrt64/include/stdarg.h:
+C:/msys64/clang64/include/stdio.h:
 
-C:/msys64/ucrt64/include/stdio.h:
+C:/msys64/clang64/include/stdlib.h:
 
-C:/msys64/ucrt64/include/string.h:
+C:/msys64/clang64/include/string.h:
 
-C:/msys64/ucrt64/include/swprintf.inl:
+C:/msys64/clang64/include/swprintf.inl:
 
-C:/msys64/ucrt64/include/sys/timeb.h:
+C:/msys64/clang64/include/sys/timeb.h:
 
-C:/msys64/ucrt64/include/sys/types.h:
+C:/msys64/clang64/include/time.h:
 
-C:/msys64/ucrt64/include/vadefs.h:
+C:/msys64/clang64/lib/clang/17/include/inttypes.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/limits.h:
+C:/msys64/clang64/lib/clang/17/include/limits.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mm_malloc.h:
+C:/msys64/clang64/lib/clang/17/include/mm_malloc.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdarg.h:
+C:/msys64/clang64/lib/clang/17/include/stdarg.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdbool.h:
+C:/msys64/clang64/lib/clang/17/include/stdbool.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stddef.h:
+C:/msys64/clang64/lib/clang/17/include/stddef.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdint.h:
+C:/msys64/clang64/lib/clang/17/include/stdint.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/syslimits.h:
+C:/msys64/clang64/lib/clang/17/include/vadefs.h:
 
 C:/My\ Program/C/112-1/gameproject_test_1225_2/src/detect.c:
 
 C:/My\ Program/C/112-1/gameproject_test_1225_2/src/file.c:
+
+C:/My\ Program/C/112-1/gameproject_test_1225_2/src/fresharray.c:
 
 C:/My\ Program/C/112-1/gameproject_test_1225_2/src/game.c:
 
