@@ -56,17 +56,17 @@ void player(ALLEGRO_DISPLAY *display,ALLEGRO_EVENT_QUEUE *event_queue,int stageN
 
         stageprint(stage,Pic.bitmapstone,Pic.redfish,Pic.yellowfish,Pic.bluefish,Pic.grass);
         al_draw_bitmap(Pic.bitmap2, positionx, positiony, 0);
-        if(transbomb==0)
+        if(transbomb==0 && bombNUM[0] != 0)
         {
             al_draw_bitmap(Pic.bitmap3, bullet_x, bullet_y, 0);
             al_draw_bitmap(Pic.bitmap3, 1135, 110, 0);
         }
-        else if(transbomb==1)
+        else if(transbomb==1 && bombNUM[1] != 0)
         {
             al_draw_bitmap(Pic.bitmap4, bullet_x, bullet_y, 0);
             al_draw_bitmap(Pic.bitmap4, 1135, 110, 0); 
         }
-        else if(transbomb==2)
+        else if(transbomb==2 && bombNUM[2] != 0)
         {
             al_draw_bitmap(Pic.bitmap5, bullet_x, bullet_y, 0);
             al_draw_bitmap(Pic.bitmap5, 1135, 110, 0);
@@ -79,8 +79,9 @@ void player(ALLEGRO_DISPLAY *display,ALLEGRO_EVENT_QUEUE *event_queue,int stageN
 
         menu = returnfirstmenu(event_queue,display,&positionx,&positiony,Pic);
         DetonateBomb(event_queue, &bullet_x, &bullet_y, &bullet_dir, &transbomb,Pic.bitmapexplosion,stage,bombNUM);
-        moveplayer(event_queue,&positionx, &positiony,&bullet_x,&bullet_y,&bullet_dir,&transbomb);
+        moveplayer(event_queue,&positionx, &positiony,&bullet_x,&bullet_y,&bullet_dir,&transbomb,bombNUM);
         
+
         detectbarrier(barrier,&bullet_x,&bullet_y,&bullet_dir,&transbomb,Pic.bitmapexplosion,stage,bombNUM);
         renew_arrow(&positionx,&positiony,&arrowD_x,&arrowU_x,&arrowR_y,&arrowL_y);
         renew_bullet(&bullet_dir,&bullet_x,&bullet_y);

@@ -1,6 +1,6 @@
 #include "header.h"
 
-int moveplayer(ALLEGRO_EVENT_QUEUE *event_queue,int * positionx,int * positiony,int *bullet_x ,int *bullet_y,int* bullet_dir,int*transbomb)
+int moveplayer(ALLEGRO_EVENT_QUEUE *event_queue,int * positionx,int * positiony,int *bullet_x ,int *bullet_y,int* bullet_dir,int*transbomb, int bombNUM[3])
 {
         ALLEGRO_EVENT ev;
         al_get_next_event(event_queue, &ev);
@@ -93,37 +93,42 @@ int moveplayer(ALLEGRO_EVENT_QUEUE *event_queue,int * positionx,int * positiony,
         }
 
 
-        if(*bullet_x <= 290 || *bullet_x >= 940 || *bullet_y <= 0 || *bullet_y >= 650 )
+        if(*bullet_x <= 290 || *bullet_x >= 940 || *bullet_y <= 0 || *bullet_y >= 650)
         {   
-            if (ev.type == ALLEGRO_EVENT_KEY_DOWN && ev.keyboard.keycode == ALLEGRO_KEY_TAB)
+            if( bombNUM[0] != 0 || bombNUM[1] != 0 || bombNUM[2] != 0)
             {
-                if (*positionx == 290 && *positiony >= 0 && *positiony <= 650)
+                if (ev.type == ALLEGRO_EVENT_KEY_DOWN && ev.keyboard.keycode == ALLEGRO_KEY_TAB)
                 {
-                    *bullet_x = *positionx + 50;
-                    *bullet_y = *positiony;
-                    *bullet_dir = 0; // 子彈向右
-                }
-                else if (*positionx >= 290 && *positionx <= 940 && *positiony == 0)
-                {
-                    *bullet_x = *positionx;
-                    *bullet_y = *positiony + 50;
-                    *bullet_dir = 1; // 子彈向下
-                }
-                else if (*positionx == 940 && *positiony >= 0 && *positiony <= 650)
-                {
-                    *bullet_x = *positionx - 50;
-                    *bullet_y = *positiony;
-                    *bullet_dir = 2; // 子彈向左
-                }
-                else if (*positionx >= LEFT_BOUNDARY && *positionx <= RIGHT_BOUNDARY && *positiony == LOWER_BOUNDARY)
-                {
-                    *bullet_x = *positionx;
-                    *bullet_y = *positiony - 50;
-                    *bullet_dir = 3; // 子彈向上
+                    if (*positionx == 290 && *positiony >= 0 && *positiony <= 650)
+                    {
+                        *bullet_x = *positionx + 50;
+                        *bullet_y = *positiony;
+                        *bullet_dir = 0; // 子彈向右
+                    }
+                    else if (*positionx >= 290 && *positionx <= 940 && *positiony == 0)
+                    {
+                        *bullet_x = *positionx;
+                        *bullet_y = *positiony + 50;
+                        *bullet_dir = 1; // 子彈向下
+                    }
+                    else if (*positionx == 940 && *positiony >= 0 && *positiony <= 650)
+                    {
+                        *bullet_x = *positionx - 50;
+                        *bullet_y = *positiony;
+                        *bullet_dir = 2; // 子彈向左
+                    }
+                    else if (*positionx >= LEFT_BOUNDARY && *positionx <= RIGHT_BOUNDARY && *positiony == LOWER_BOUNDARY)
+                    {
+                        *bullet_x = *positionx;
+                        *bullet_y = *positiony - 50;
+                        *bullet_dir = 3; // 子彈向上
+                    }
                 }
             }
-        
-            if (ev.type == ALLEGRO_EVENT_KEY_DOWN && ev.keyboard.keycode == ALLEGRO_KEY_RSHIFT)
+
+            ChangeBomb(a, &transbomb ,bombNUM);
+
+            if (ev.type == ALLEGRO_EVENT_KEY_DOWN && ev.keyboard.keycode == ALLEGRO_KEY_RSHIFT )
             {
                 printf("click");
                 *transbomb=(a%3);
@@ -131,6 +136,20 @@ int moveplayer(ALLEGRO_EVENT_QUEUE *event_queue,int * positionx,int * positiony,
                 
             }
         }
+}
+
+void ChangeBomb(int a, int*transbomb ,int bombNUM[3]) {
+    static int hasRun = 0;  // 靜態變數作為標誌，預設值為 0
+
+    if (!hasRun && (bombNUM[0] == 0 || bombNUM[1] == 0 || bombNUM[2] == 0)) {
+        *transbomb=(a%3);
+        a=a+1 ; 
+        hasRun = 1;// 將標誌設為 1，表示程式碼已執行
+    }
+    
+    if (hasRun && !(bombNUM[0] == 0 || bombNUM[1] == 0 || bombNUM[2] == 0)) {
+        hasRun = 0;  // 重置 hasRun
+    }
 }
         
 

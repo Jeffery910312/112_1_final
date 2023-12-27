@@ -75,7 +75,7 @@ int menu_second(ALLEGRO_DISPLAY*,ALLEGRO_EVENT_QUEUE *,struct ResourcePic);//new
 void endgame(ALLEGRO_DISPLAY*,ALLEGRO_EVENT_QUEUE *,struct ResourcePic );
 int returnfirstmenu(ALLEGRO_EVENT_QUEUE *,ALLEGRO_DISPLAY *,int*,int*,struct ResourcePic);
 void player(ALLEGRO_DISPLAY*,ALLEGRO_EVENT_QUEUE *,int stageNumber,struct ResourcePic);
-int moveplayer(ALLEGRO_EVENT_QUEUE *,int * ,int *,int *,int *,int*,int*);
+int moveplayer(ALLEGRO_EVENT_QUEUE *,int * ,int *,int *,int *,int*,int*,int[3]);
 void stagefile(int [40][40], struct barrier[144] ,int stageNumber ,int [2]);
 void stageprint(int [40][40],ALLEGRO_BITMAP *,ALLEGRO_BITMAP *,ALLEGRO_BITMAP *,ALLEGRO_BITMAP *,ALLEGRO_BITMAP *);
 void renew_bullet(int *,int*,int*);
@@ -89,6 +89,7 @@ void displayLoadingScreen(ALLEGRO_FONT *font , struct ResourcePic );
 void ScoreDisplay(ALLEGRO_FONT *font,int);
 void LevelDisplay(ALLEGRO_FONT *font,int);
 void BombTypeDisplay(ALLEGRO_FONT *font,int [3],struct ResourcePic);
+void ChangeBomb(int , int*transbomb ,int[3]);
 
 
 //炸彈種類
