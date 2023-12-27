@@ -89,7 +89,6 @@ void displayLoadingScreen(ALLEGRO_FONT *font , struct ResourcePic );
 void ScoreDisplay(ALLEGRO_FONT *font,int);
 void LevelDisplay(ALLEGRO_FONT *font,int);
 void BombTypeDisplay(ALLEGRO_FONT *font,int [3],struct ResourcePic);
-void ChangeBomb(int , int* , int [3]);
 
 
 
