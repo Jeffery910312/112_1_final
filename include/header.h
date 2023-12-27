@@ -81,6 +81,7 @@ void DetonateBomb(ALLEGRO_EVENT_QUEUE *event_queue_,int *bullet_x,int *bullet_y,
 int StageChanged(int [40][40]);
 void displayLoadingScreen(ALLEGRO_FONT *font , struct ResourcePic );
 void ScoreDisplay(ALLEGRO_FONT *font,int);
+void LevelDisplay(ALLEGRO_FONT *font,int);
 
 
 //炸彈種類

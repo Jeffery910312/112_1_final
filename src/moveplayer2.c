@@ -121,9 +121,8 @@ int moveplayer(ALLEGRO_EVENT_QUEUE *event_queue,int * positionx,int * positiony,
                     *bullet_y = *positiony - 50;
                     *bullet_dir = 3; // 子彈向上
                 }
-        }
-        if(*bullet_x <= 290 || *bullet_x >= 940 || *bullet_y <= 0 || *bullet_y >= 650) 
-        {
+            }
+        
             if (ev.type == ALLEGRO_EVENT_KEY_DOWN && ev.keyboard.keycode == ALLEGRO_KEY_RSHIFT)
             {
                 printf("click");
@@ -132,7 +131,6 @@ int moveplayer(ALLEGRO_EVENT_QUEUE *event_queue,int * positionx,int * positiony,
                 
             }
         }
-    }
 }
         
 

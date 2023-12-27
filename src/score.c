@@ -26,3 +26,9 @@ void ScoreDisplay(ALLEGRO_FONT *font,int score){
     snprintf(scoreText, sizeof(scoreText), "Score: %d", score);
     al_draw_text(font, al_map_rgb(240, 240, 240), 1045, 60, ALLEGRO_ALIGN_LEFT, scoreText);
 }
+
+void LevelDisplay(ALLEGRO_FONT *font,int level){
+    char LevelText[10];
+    snprintf(LevelText, sizeof(LevelText), "Level%d", level);
+    al_draw_text(font, al_map_rgb(240, 240, 240), 1045, 355, ALLEGRO_ALIGN_LEFT, LevelText);
+}

@@ -47,6 +47,7 @@ void player(ALLEGRO_DISPLAY *display,ALLEGRO_EVENT_QUEUE *event_queue,int stageN
 
         al_draw_filled_rectangle(1035 , 50 , 1235 ,400,al_map_rgb(180, 135, 65));
         al_draw_text(font2, al_map_rgb(240, 240, 240), 1045, 115, ALLEGRO_ALIGN_LEFT, "Next:");
+        LevelDisplay(font2,stageNumber);
 
         stageprint(stage,Pic.bitmapstone,Pic.redfish,Pic.yellowfish,Pic.bluefish,Pic.grass);
         al_draw_bitmap(Pic.bitmap2, positionx, positiony, 0);
