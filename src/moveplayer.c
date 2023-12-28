@@ -1,6 +1,6 @@
 #include "header.h"
 
-int moveplayer(ALLEGRO_EVENT_QUEUE *event_queue,int * positionx,int * positiony,int *bullet_x ,int *bullet_y,int* bullet_dir,int*transbomb, int bombNUM[3])
+void moveplayer(ALLEGRO_EVENT_QUEUE *event_queue,int * positionx,int * positiony,int *bullet_x ,int *bullet_y,int* bullet_dir,int*transbomb, int bombNUM[3])
 {
         ALLEGRO_EVENT ev;
         al_get_next_event(event_queue, &ev);
@@ -95,10 +95,10 @@ int moveplayer(ALLEGRO_EVENT_QUEUE *event_queue,int * positionx,int * positiony,
 
         if(*bullet_x <= 290 || *bullet_x >= 940 || *bullet_y <= 0 || *bullet_y >= 650)
         {      
-
-            if( (bombNUM[0] != 0 && *transbomb ==0)||(bombNUM[1] != 0 && *transbomb ==1)|| (bombNUM[2] != 0 && *transbomb ==2))
             
-            {            
+
+            if( (bombNUM[0] > 0 && *transbomb ==0)||(bombNUM[1] > 0 && *transbomb ==1)|| (bombNUM[2] > 0 && *transbomb ==2))
+            {    
 
                 if (ev.type == ALLEGRO_EVENT_KEY_DOWN && ev.keyboard.keycode == ALLEGRO_KEY_TAB)
                 {
@@ -131,11 +131,10 @@ int moveplayer(ALLEGRO_EVENT_QUEUE *event_queue,int * positionx,int * positiony,
 
             if (ev.type == ALLEGRO_EVENT_KEY_DOWN && ev.keyboard.keycode == ALLEGRO_KEY_RSHIFT )
             {
-                printf("click");
-                *transbomb=(a%3);
+                //printf("click");
+                *transbomb=(a % 3);
                 a=a+1;
                 
             }
         }
 }
-

@@ -7,8 +7,11 @@ int main ()
     ALLEGRO_EVENT_QUEUE *event_queue = NULL;
     initial_src();
     struct ResourcePic Pic;
+    struct ResourceAudio Audio;
     resourceInitPic(&Pic);
+    resourceInitAudio(&Audio);
     resourceLoadPic(&Pic);
+    resourceLoadAudio(&Audio);
     display = al_create_display(DISPLAY_WIDTH,DISPLAY_HEIGHT);
     event_queue = al_create_event_queue();
     al_register_event_source(event_queue, al_get_display_event_source(display));
@@ -22,21 +25,21 @@ int main ()
        //endgame(display,event_queue);
         printf("hi");
         menu=0;
-        menu=menu_second(display,event_queue,Pic);
+        menu=menu_second(display,event_queue,Pic,Audio);
         if(menu==1)
         {
-            player(display,event_queue,1,Pic);
+            player(display,event_queue,1,Pic,Audio);
             printf("back");
            
 
         }else if(menu==2)
         {
-            player(display,event_queue,2,Pic);
+            player(display,event_queue,2,Pic,Audio);
             printf("back");
             
         }else if (menu==3)
         {
-            player(display,event_queue,3,Pic);
+            player(display,event_queue,3,Pic,Audio);
             printf("back");
             
             
@@ -46,7 +49,7 @@ int main ()
             
         }else if(menu==5)
         {
-            printf("exit\n");
+            //printf("exit\n");
             break;
         }
     }

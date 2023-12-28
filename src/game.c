@@ -1,6 +1,6 @@
 #include "header.h"
 
-void player(ALLEGRO_DISPLAY *display,ALLEGRO_EVENT_QUEUE *event_queue,int stageNumber,struct ResourcePic Pic)
+void player(ALLEGRO_DISPLAY *display,ALLEGRO_EVENT_QUEUE *event_queue,int stageNumber,struct ResourcePic Pic,struct ResourceAudio Audio)
 {   
 
     ALLEGRO_FONT *font = al_load_ttf_font("arial.ttf", 60, 0);
@@ -33,7 +33,7 @@ void player(ALLEGRO_DISPLAY *display,ALLEGRO_EVENT_QUEUE *event_queue,int stageN
     int bombNUM[3];
 
     initial_array(barrier);
-    stagefile(stage,barrier,stageNumber,bombNUM);
+    stagefile(stage,barrier,stageNumber,bombNUM,&Pic);
 
     MaxScore = StageChanged( stage );
     int previousScore = MaxScore;
@@ -45,7 +45,7 @@ void player(ALLEGRO_DISPLAY *display,ALLEGRO_EVENT_QUEUE *event_queue,int stageN
     {
         
         al_draw_bitmap(Pic.back, 0, 0, 0);
-        al_draw_bitmap(Pic.bitmap1, 290, 0, 0);
+        al_draw_bitmap(Pic.map, 290, 0, 0);
 
         al_draw_filled_rectangle(1035 , 50 , 1235 ,400,al_map_rgb(180, 135, 65));
         al_draw_text(font2, al_map_rgb(240, 240, 240), 1045, 115, ALLEGRO_ALIGN_LEFT, "Next:");
@@ -55,21 +55,21 @@ void player(ALLEGRO_DISPLAY *display,ALLEGRO_EVENT_QUEUE *event_queue,int stageN
 
 
         stageprint(stage,Pic.bitmapstone,Pic.redfish,Pic.yellowfish,Pic.bluefish,Pic.grass);
-        al_draw_bitmap(Pic.bitmap2, positionx, positiony, 0);
+        al_draw_bitmap(Pic.playerPic, positionx, positiony, 0);
         if(transbomb==0 && bombNUM[0] != 0)
         {
-            al_draw_bitmap(Pic.bitmap3, bullet_x, bullet_y, 0);
-            al_draw_bitmap(Pic.bitmap3, 1135, 110, 0);
+            al_draw_bitmap(Pic.bomp, bullet_x, bullet_y, 0);
+            al_draw_bitmap(Pic.bomp, 1135, 110, 0);
         }
         else if(transbomb==1 && bombNUM[1] != 0)
         {
-            al_draw_bitmap(Pic.bitmap4, bullet_x, bullet_y, 0);
-            al_draw_bitmap(Pic.bitmap4, 1135, 110, 0); 
+            al_draw_bitmap(Pic.bomp2, bullet_x, bullet_y, 0);
+            al_draw_bitmap(Pic.bomp2, 1135, 110, 0); 
         }
         else if(transbomb==2 && bombNUM[2] != 0)
         {
-            al_draw_bitmap(Pic.bitmap5, bullet_x, bullet_y, 0);
-            al_draw_bitmap(Pic.bitmap5, 1135, 110, 0);
+            al_draw_bitmap(Pic.bomp3, bullet_x, bullet_y, 0);
+            al_draw_bitmap(Pic.bomp3, 1135, 110, 0);
         }
         al_draw_bitmap(Pic.bitmap_right,arrowR_x,arrowR_y,0);
         al_draw_bitmap(Pic.bitmap_left,arrowL_x,arrowL_y,0);
@@ -77,7 +77,11 @@ void player(ALLEGRO_DISPLAY *display,ALLEGRO_EVENT_QUEUE *event_queue,int stageN
         al_draw_bitmap(Pic.bitmap_down,arrowD_x,arrowD_y,0);
         ScoreDisplay(font2,CurrentScore);
 
-        menu = returnfirstmenu(event_queue,display,&positionx,&positiony,Pic);
+        menu = returnfirstmenu(event_queue,display,&positionx,&positiony,Pic,Audio);
+        if(menu==1)
+        {
+            stagefile(stage,barrier,stageNumber,bombNUM,&Pic);
+        }
         DetonateBomb(event_queue, &bullet_x, &bullet_y, &bullet_dir, &transbomb,Pic.bitmapexplosion,stage,bombNUM);
         moveplayer(event_queue,&positionx, &positiony,&bullet_x,&bullet_y,&bullet_dir,&transbomb,bombNUM);
         

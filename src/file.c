@@ -1,11 +1,18 @@
 #include "header.h"
 
-void stagefile(int stage[40][40],struct barrier barrier[144],int stageNumber,int bomb[2])
+void stagefile(int stage[40][40],struct barrier barrier[144],int stageNumber,int bomb[3],struct ResourcePic* Pic)
 {
     int i=0,j=0,a=0;
 
+    char mapName[20];
     char fileName[20];  // 文件檔名加載
     sprintf(fileName, "stage%d.txt", stageNumber);
+    sprintf(mapName, "./map%d.png", (stageNumber%3)+1);
+
+
+    Pic->map = al_load_bitmap(mapName);
+
+
     FILE *file2 = fopen(fileName, "r");
     if (file2 == NULL) {
         printf("Unable to open file for reading\n");
