@@ -171,26 +171,7 @@ int returnfirstmenu(ALLEGRO_EVENT_QUEUE *event_queue,ALLEGRO_DISPLAY *display,in
 void endgame(ALLEGRO_DISPLAY*display,ALLEGRO_EVENT_QUEUE *event_queue,struct ResourcePic Pic,struct ResourceAudio Audio) 
 {
     al_draw_bitmap(Pic.back,0, 0, 0);
-    ALLEGRO_BITMAP* bitmap0 = NULL;
-    ALLEGRO_BITMAP* bitmap1 = NULL;
-    ALLEGRO_BITMAP* contiune = NULL;
-    ALLEGRO_BITMAP* exit = NULL;
-    ALLEGRO_BITMAP* bitmap4 = NULL;
-    ALLEGRO_SAMPLE* button = NULL;
-    //ALLEGRO_KEYBOARD_STATE keyboard_state;//用以儲存鍵盤狀態
-    //視窗
-    
-    //event_queue = al_create_event_queue();//創建一個事件序列
-    //display = al_create_display(SCREEN_WIDTH, SCREEN_HEIGHT);
-    //把各種事件註冊進event_queue
     bool buttonPressed = true;
-    bitmap0 = al_load_bitmap("./background.jpg");
- 
-    bitmap1 = al_load_bitmap("./contiunebutton.png");  
-    contiune = al_load_bitmap("./end2.png");
-    exit = al_load_bitmap("./end1.png");
-    bitmap4 = al_load_bitmap("./end.png");
-    button = al_load_sample("./bonk.mp3");
     int menu=0;
     while (buttonPressed) {
 
@@ -207,7 +188,7 @@ void endgame(ALLEGRO_DISPLAY*display,ALLEGRO_EVENT_QUEUE *event_queue,struct Res
 
                 if (mouseX >= 150 && mouseX <= 350 && mouseY >= 225 && mouseY <= 300) 
                 {
-                    al_play_sample(button, 1, 0, 1, ALLEGRO_PLAYMODE_ONCE,NULL);
+                    al_play_sample(Audio.button, 1, 0, 1, ALLEGRO_PLAYMODE_ONCE,NULL);
                     //buttonPressed = false;
                     menu=2;
                     printf("continue game!\n");
@@ -218,22 +199,14 @@ void endgame(ALLEGRO_DISPLAY*display,ALLEGRO_EVENT_QUEUE *event_queue,struct Res
             } 
         }
         //al_clear_to_color(al_map_rgb(255, 255, 255));
-        al_draw_bitmap(bitmap0,0, 0, 0);
 
-        al_draw_bitmap(bitmap1,150, 225, 0);
-        al_draw_bitmap(contiune,300, 500, 0);
-        al_draw_bitmap(exit,100, 500, 0);
-        al_draw_bitmap(bitmap4,0,0,0);      
+        al_draw_bitmap(Pic.contiune,150, 225, 0);
+        al_draw_bitmap(Pic.end1,300, 500, 0);
+        al_draw_bitmap(Pic.end2,100, 500, 0);
+        al_draw_bitmap(Pic.end3,0,0,0);      
         al_flip_display();    
     }
-    al_destroy_bitmap(bitmap0);
-    al_destroy_bitmap(bitmap1);
-    al_destroy_bitmap(contiune);
-    al_destroy_bitmap(exit);
-    al_destroy_bitmap(bitmap4);
-    
-    //al_draw_bitmap(bitmap0, 0, 0, 0);
-    //al_destroy_display(display_1);
+
     
 
 }

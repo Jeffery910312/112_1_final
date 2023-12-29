@@ -63,6 +63,11 @@ struct ResourcePic
     ALLEGRO_BITMAP *level2 ;
     ALLEGRO_BITMAP *level3 ;
     ALLEGRO_BITMAP *historybutton ;
+    ALLEGRO_BITMAP *end1 ;
+    ALLEGRO_BITMAP *end2 ;
+    ALLEGRO_BITMAP *end3 ;
+
+
 };
 
 struct ResourceAudio

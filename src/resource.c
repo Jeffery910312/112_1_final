@@ -27,6 +27,9 @@ void resourceInitPic(struct ResourcePic* Pic)
     Pic->level2 = NULL;
     Pic->level3 = NULL;
     Pic->historybutton = NULL;
+    Pic->end1 = NULL;
+    Pic->end2 = NULL;
+    Pic->end3 = NULL;
 }
 
 void resourceLoadPic(struct ResourcePic* Pic)
@@ -57,6 +60,9 @@ void resourceLoadPic(struct ResourcePic* Pic)
     Pic->level2 = al_load_bitmap("./level2.png");
     Pic->level3 = al_load_bitmap("./level3.png");   
     Pic->historybutton = al_load_bitmap("./historybutton.png");
+    Pic->end1 = al_load_bitmap("./end1.png");
+    Pic->end2 = al_load_bitmap("./end2.png");
+    Pic->end3 = al_load_bitmap("./end3.png");
 }
 
 void resourceDestoryPic(struct ResourcePic* Pic)
@@ -86,6 +92,9 @@ void resourceDestoryPic(struct ResourcePic* Pic)
     al_destroy_bitmap(Pic->level2);
     al_destroy_bitmap(Pic->level3);
     al_destroy_bitmap(Pic->historybutton );
+    al_destroy_bitmap(Pic->end1);
+    al_destroy_bitmap(Pic->end2);
+    al_destroy_bitmap(Pic->end3);
 }
 
 void resourceInitAudio(struct ResourceAudio* Audio)
