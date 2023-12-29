@@ -40,7 +40,7 @@ void player(ALLEGRO_DISPLAY *display,ALLEGRO_EVENT_QUEUE *event_queue,int stageN
 
     displayLoadingScreen(font,Pic);
 
-    while ( menu != 3)
+    while ( menu != 3 )
     {
         
         al_draw_bitmap(Pic.back, 0, 0, 0);

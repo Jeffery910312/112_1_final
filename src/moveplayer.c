@@ -96,7 +96,7 @@ void moveplayer(ALLEGRO_EVENT_QUEUE *event_queue,int * positionx,int * positiony
         }
 
 
-        if(*bullet_x <= 290 || *bullet_x >= 940 || *bullet_y <= 0 || *bullet_y >= 650)
+        if(*bullet_x <= 290 || *bullet_x >= 940 || *bullet_y <= 0 || *bullet_y >= 650 )
         {      
             if (((bombNUM[0] == 0 && *transbomb ==0)||(bombNUM[1] == 0 && *transbomb ==1)||(bombNUM[2] == 0 && *transbomb ==2)) && switchCount < 3 ) //沒炸彈自動切換
                 {
