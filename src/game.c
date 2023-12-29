@@ -7,7 +7,6 @@ void player(ALLEGRO_DISPLAY *display,ALLEGRO_EVENT_QUEUE *event_queue,int stageN
     ALLEGRO_FONT *font2 = al_load_ttf_font("arial.ttf", 32, 0);
     if (!font) {
     fprintf(stderr, "Failed to load font.\n");
-    // 处理加载字体失败的情况
     exit(EXIT_FAILURE);
     }
     int stage [40][40];
@@ -56,17 +55,17 @@ void player(ALLEGRO_DISPLAY *display,ALLEGRO_EVENT_QUEUE *event_queue,int stageN
 
         stageprint(stage,Pic.bitmapstone,Pic.redfish,Pic.yellowfish,Pic.bluefish,Pic.grass);
         al_draw_bitmap(Pic.playerPic, positionx, positiony, 0);
-        if(transbomb==0 && bombNUM[0] != 0)
+        if(transbomb==0 && bombNUM[0] >= 0)
         {
             al_draw_bitmap(Pic.bomp, bullet_x, bullet_y, 0);
             al_draw_bitmap(Pic.bomp, 1135, 110, 0);
         }
-        else if(transbomb==1 && bombNUM[1] != 0)
+        else if(transbomb==1 && bombNUM[1] >= 0)
         {
             al_draw_bitmap(Pic.bomp2, bullet_x, bullet_y, 0);
             al_draw_bitmap(Pic.bomp2, 1135, 110, 0); 
         }
-        else if(transbomb==2 && bombNUM[2] != 0)
+        else if(transbomb==2 && bombNUM[2] >= 0)
         {
             al_draw_bitmap(Pic.bomp3, bullet_x, bullet_y, 0);
             al_draw_bitmap(Pic.bomp3, 1135, 110, 0);

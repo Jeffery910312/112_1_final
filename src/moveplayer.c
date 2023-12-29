@@ -4,7 +4,10 @@ void moveplayer(ALLEGRO_EVENT_QUEUE *event_queue,int * positionx,int * positiony
 {
         ALLEGRO_EVENT ev;
         al_get_next_event(event_queue, &ev);
+
         static int a = 1;
+        static int switchCount = 0;
+
         if (ev.type == ALLEGRO_EVENT_KEY_DOWN)
         {
             switch (ev.keyboard.keycode)
@@ -95,10 +98,19 @@ void moveplayer(ALLEGRO_EVENT_QUEUE *event_queue,int * positionx,int * positiony
 
         if(*bullet_x <= 290 || *bullet_x >= 940 || *bullet_y <= 0 || *bullet_y >= 650)
         {      
-            
+            if (((bombNUM[0] == 0 && *transbomb ==0)||(bombNUM[1] == 0 && *transbomb ==1)||(bombNUM[2] == 0 && *transbomb ==2)) && switchCount < 3 ) //沒炸彈自動切換
+                {
+                    *transbomb = (a % 3);
+                    a = a + 1;
+                    switchCount++;
+                } else {
+                    switchCount = 0;  // 重置切換次數，以便下一次有炸彈時重新執行
+                }
 
             if( (bombNUM[0] > 0 && *transbomb ==0)||(bombNUM[1] > 0 && *transbomb ==1)|| (bombNUM[2] > 0 && *transbomb ==2))
             {    
+
+                
 
                 if (ev.type == ALLEGRO_EVENT_KEY_DOWN && ev.keyboard.keycode == ALLEGRO_KEY_TAB)
                 {
@@ -127,14 +139,19 @@ void moveplayer(ALLEGRO_EVENT_QUEUE *event_queue,int * positionx,int * positiony
                         *bullet_dir = 3; // 子彈向上
                     }
                 }
-            }
+            
+            
 
-            if (ev.type == ALLEGRO_EVENT_KEY_DOWN && ev.keyboard.keycode == ALLEGRO_KEY_RSHIFT )
-            {
-                //printf("click");
-                *transbomb=(a % 3);
-                a=a+1;
-                
+                if (ev.type == ALLEGRO_EVENT_KEY_DOWN && ev.keyboard.keycode == ALLEGRO_KEY_RSHIFT && switchCount < 3)
+                {
+                    *transbomb = (a % 3);
+                    a = a + 1;
+                    switchCount++;
+                } else {
+                    switchCount = 0;  // 重置切換次數，以便下一次有炸彈時重新執行
+                }
             }
         }
 }
+
+
